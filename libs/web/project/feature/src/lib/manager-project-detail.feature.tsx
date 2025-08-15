@@ -1,11 +1,5 @@
 import { useAuth } from '@islanddao-platform/web-auth-data-access'
-import {
-  CoreUiBackLink,
-  CoreUiButton,
-  CoreUiCard,
-  CoreUiDebugModal,
-  dividerColor,
-} from '@islanddao-platform/web-core-ui'
+import { CoreUiBackLink, CoreUiButton, CoreUiCard, CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
 import { useManagerFindOneProject } from '@islanddao-platform/web-project-data-access'
 import {
   ProjectUiDates,
@@ -83,7 +77,7 @@ export function ManagerProjectDetailFeature() {
             </UiGroup>
             <UiTabRoutes
               styles={{
-                root: { background: dividerColor, borderRadius: 48, padding: 8 },
+                root: { borderRadius: 48, padding: 8 },
               }}
               variant="pills"
               radius="xl"

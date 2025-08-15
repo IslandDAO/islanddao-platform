@@ -1,15 +1,27 @@
-import { ColorSchemeScript, createTheme, DEFAULT_THEME, Loader, MantineProvider } from '@mantine/core'
+import { ColorSchemeScript, createTheme, Loader, MantineColorsTuple, MantineProvider } from '@mantine/core'
 import { ModalsProvider } from '@mantine/modals'
 import { Notifications } from '@mantine/notifications'
 import { createContext, ReactNode, Suspense, useContext } from 'react'
 
 // Import the mantine theme styles
 import './ui-theme-styles'
-import { cardGradient, dropdownBackground } from '../core-ui-constants'
+
+export const brand: MantineColorsTuple = [
+  '#edfbeb',
+  '#ddf3da',
+  '#abdea4',
+  '#97d68f',
+  '#79c96d',
+  '#65c158',
+  '#5abd4c',
+  '#49a73c',
+  '#3e9433',
+  '#308028',
+]
 
 const defaultTheme = createTheme({
   colors: {
-    brand: DEFAULT_THEME.colors.violet,
+    brand,
   },
   primaryColor: 'brand',
   fontFamily: `Poppins, sans-serif`,
@@ -17,14 +29,14 @@ const defaultTheme = createTheme({
   components: {
     Autocomplete: {
       styles: {
-        input: { border: 'none', ...cardGradient },
-        dropdown: { border: 'none', ...dropdownBackground },
+        input: { border: 'none' },
+        dropdown: { border: 'none' },
       },
     },
     Select: {
       styles: {
-        input: { border: 'none', ...cardGradient },
-        dropdown: { border: 'none', ...dropdownBackground },
+        input: { border: 'none' },
+        dropdown: { border: 'none' },
       },
     },
   },

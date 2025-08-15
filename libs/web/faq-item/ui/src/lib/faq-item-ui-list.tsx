@@ -11,7 +11,7 @@ export function FaqItemUiList({ items }: { items: FaqItem[] }) {
       variant="separated"
     >
       {items.map((item) => (
-        <Accordion.Item className="gradient-card" fz="sm" c="dark.1" value={item.question} key={item.question}>
+        <Accordion.Item fz="sm" c="dark.1" value={item.question} key={item.question}>
           <Accordion.Control>{item.question}</Accordion.Control>
           <Accordion.Panel>
             <CoreUiContent content={item.answer} />

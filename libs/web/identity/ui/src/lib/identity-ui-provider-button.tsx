@@ -14,7 +14,6 @@ export function IdentityUiProviderButton({
       variant="filled"
       size="xl"
       radius="xl"
-      className={`identity-${action}-${provider}`.toLowerCase()}
       rightSection={<IdentityUiIcon provider={provider} />}
       component={'a'}
       href={`/api/auth/${provider.toLowerCase()}`}

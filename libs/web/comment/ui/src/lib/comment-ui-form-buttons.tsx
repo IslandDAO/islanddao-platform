@@ -1,5 +1,4 @@
 import { Comment, ReviewerCreateCommentInput } from '@islanddao-platform/sdk'
-import { pinkGradient } from '@islanddao-platform/web-core-ui'
 import { Button, ButtonProps, Collapse, Text } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
@@ -23,7 +22,7 @@ export function CommentUiFormButtons({
         <Text size="xl" fw={700}>
           My review
         </Text>
-        <Button radius="xl" styles={{ root: { ...pinkGradient } }} {...props} onClick={() => toggle()}>
+        <Button radius="xl" {...props} onClick={() => toggle()}>
           {opened ? 'Cancel' : 'Add comment'}
         </Button>
       </UiGroup>

@@ -1,5 +1,4 @@
 import { NumberInput, NumberInputProps } from '@mantine/core'
-import { cardGradient } from '../core-ui-constants'
 
 export interface CoreUiCurrencyInputProps extends NumberInputProps {
   currency?: string
@@ -20,7 +19,6 @@ export function CoreUiCurrencyInput({ currency = 'USDC', ...props }: CoreUiCurre
     styles: {
       input: {
         border: 'none',
-        ...cardGradient,
         paddingRight: currencyWidth,
       },
     },

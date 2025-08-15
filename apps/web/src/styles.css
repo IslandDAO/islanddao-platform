@@ -4,10 +4,6 @@ body,
   height: 100%;
 }
 
-.gradient-purple {
-  background: linear-gradient(130.23deg, #242545 0%, #100c20 50%, #370c57 100%) !important;
-}
-
 .identity-solana,
 .identity-login-discord,
 .gradient-pink {
@@ -24,7 +20,8 @@ body,
 }
 
 .gradient-card {
-  background: linear-gradient(0deg, rgba(224, 206, 248, 0.16), rgba(224, 206, 248, 0.16)) !important;
+  /*background: var(--mantine-color-brand-9)!important;*/
+  /*background: rgb(from var(--mantine-color-brand-9) r g b / 0.5);*/
 }
 
 .core-ui-content :is(h1, h2, h3, h4, h5, h6) {

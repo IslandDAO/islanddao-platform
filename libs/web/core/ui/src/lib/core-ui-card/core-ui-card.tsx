@@ -10,7 +10,7 @@ export interface CoreUiCardProps extends PaperProps {
 
 export function CoreUiCard({ children, to, title, ...props }: CoreUiCardProps) {
   const element = (
-    <Paper className="gradient-card" p="md" radius="lg" {...props}>
+    <Paper withBorder p="md" radius="lg" {...props}>
       {title ? <UiCardTitle>{title}</UiCardTitle> : null}
       {children}
     </Paper>

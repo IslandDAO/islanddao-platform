@@ -1,7 +1,6 @@
 import { Button, Group, Popover, Stack, Text, UnstyledButton } from '@mantine/core'
 import { ComboboxItem } from '@mantine/core/lib/components/Combobox'
 import { ReactNode, useState } from 'react'
-import { dropdownBackground } from '../core-ui-constants'
 import { CoreUiDivider } from '../core-ui-content'
 import { useUiBreakpoints } from '../core-ui-theme'
 
@@ -26,7 +25,7 @@ export function CoreUiCustomSelect({
 
   return (
     <Popover
-      styles={{ dropdown: { ...dropdownBackground, borderRadius: 16, color: 'white' } }}
+      styles={{ dropdown: { borderRadius: 16, color: 'white' } }}
       width={!isSm ? 'target' : null}
       radius="md"
       opened={opened}

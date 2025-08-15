@@ -1,12 +1,10 @@
 import { ManagerUpdateProjectInput, Project, ProjectStatus } from '@islanddao-platform/sdk'
 import {
-  cardGradient,
   CoreUiButton,
   CoreUiCurrencyInput,
   CoreUiDateInput,
   CoreUiDivider,
   CoreUiInput,
-  pinkGradient,
 } from '@islanddao-platform/web-core-ui'
 import { Group, SimpleGrid, Textarea } from '@mantine/core'
 import { useForm } from '@mantine/form'
@@ -118,7 +116,7 @@ export function ManagerProjectUiUpdateForm({
               />
             </FormGrid>
             <Textarea
-              styles={{ input: { border: 'none', ...cardGradient } }}
+              styles={{ input: { border: 'none' } }}
               withAsterisk
               minRows={10}
               autosize
@@ -196,9 +194,7 @@ export function ManagerProjectUiUpdateForm({
             />
           </FormGrid>
           <Group justify="flex-end" mt="md">
-            <CoreUiButton styles={{ root: { ...pinkGradient } }} type="submit">
-              Save changes
-            </CoreUiButton>
+            <CoreUiButton type="submit">Save changes</CoreUiButton>
           </Group>
         </UiStack>
       </form>

@@ -1,7 +1,6 @@
 export * from './core-ui-back'
 export * from './core-ui-button'
 export * from './core-ui-card'
-export * from './core-ui-constants'
 export * from './core-ui-content'
 export * from './core-ui-countdown'
 export * from './core-ui-dashboard-grid'

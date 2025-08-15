@@ -37,7 +37,7 @@ export const provisionProjects: ProjectProvisionInput[] = [
 `,
   },
   {
-    communityId: 'deans-list',
+    communityId: 'islanddao',
     name: 'Dashboard v2',
     members: { create: [{ userId: 'beeman.dev', role: ProjectRole.Manager }] },
     amountTotalUsd: 500,
@@ -48,7 +48,7 @@ export const provisionProjects: ProjectProvisionInput[] = [
     status: ProjectStatus.Active,
   },
   {
-    communityId: 'deans-list',
+    communityId: 'islanddao',
     avatarUrl: 'https://pbs.twimg.com/profile_images/1764858894701015040/6lI5MAwe_400x400.jpg',
     name: 'Triad',
     members: { create: [{ userId: 'beeman.dev', role: ProjectRole.Manager }] },

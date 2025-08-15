@@ -1,5 +1,5 @@
 import { Rating, User } from '@islanddao-platform/sdk'
-import { cardGradient, CoreUiRating } from '@islanddao-platform/web-core-ui'
+import { CoreUiRating } from '@islanddao-platform/web-core-ui'
 import { UserUiAvatar } from '@islanddao-platform/web-user-ui'
 import { ActionIcon, Box, Flex, Textarea, Tooltip } from '@mantine/core'
 import { useForm } from '@mantine/form'
@@ -33,7 +33,7 @@ export function ManagerRatingUiForm({
       <Flex align="center" gap="xs">
         {author ? <UserUiAvatar user={author} to={author.profileUrl} size="sm" /> : <div />}
         <Textarea
-          styles={{ input: { border: 'none', ...cardGradient } }}
+          styles={{ input: { border: 'none' } }}
           disabled={disabled}
           style={{ width: '100%' }}
           size="xs"

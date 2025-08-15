@@ -43,7 +43,6 @@ export function IdentityUiSolanaLinkButton({
       size="xl"
       variant="gradient"
       radius="xl"
-      className="identity-solana"
       leftSection={<IconWallet size={28} />}
       {...props}
       onClick={() => {

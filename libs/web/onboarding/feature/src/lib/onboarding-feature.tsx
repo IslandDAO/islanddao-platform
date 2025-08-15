@@ -1,6 +1,6 @@
 import { IdentityProvider } from '@islanddao-platform/sdk'
 import { useAuth } from '@islanddao-platform/web-auth-data-access'
-import { CoreUiLogoType, pinkGradientText } from '@islanddao-platform/web-core-ui'
+import { CoreUiLogoType } from '@islanddao-platform/web-core-ui'
 import { useUserFindManyIdentity } from '@islanddao-platform/web-identity-data-access'
 import { IdentityUiLinkButton } from '@islanddao-platform/web-identity-ui'
 import { Box, Flex, Group, Stack, Stepper, Text } from '@mantine/core'
@@ -40,7 +40,7 @@ export function OnboardingFeature() {
 
           <Text fz="lg" c="white">
             We need this so you can start adding feedback and{' '}
-            <Text component="span" inherit styles={{ root: { ...pinkGradientText } }}>
+            <Text component="span" inherit c="brand">
               earn rewards
             </Text>
           </Text>

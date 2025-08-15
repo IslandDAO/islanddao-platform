@@ -2,7 +2,6 @@ import { modals } from '@mantine/modals'
 import { RichTextEditor } from '@mantine/tiptap'
 import { IconPhoto } from '@tabler/icons-react'
 import { Editor } from '@tiptap/react'
-import { cardGradient, modalStyles } from '../core-ui-constants'
 import { CoreUiEditorAddImageForm } from './core-ui-editor-add-image-form'
 
 export interface CoreUiEditorProps {
@@ -19,7 +18,6 @@ export function CoreUiEditor({ editor }: CoreUiEditorProps) {
       title: 'Add image from URL',
       centered: true,
       radius: 'xl',
-      styles: { ...modalStyles },
       children: (
         <CoreUiEditorAddImageForm
           close={(src) => {
@@ -38,7 +36,6 @@ export function CoreUiEditor({ editor }: CoreUiEditorProps) {
       editor={editor}
       styles={{
         root: {
-          ...cardGradient,
           borderRadius: 24,
         },
         toolbar: {

@@ -1,5 +1,5 @@
 import { Community, ManagerCreateProjectInput } from '@islanddao-platform/sdk'
-import { CoreUiButton, pinkGradient } from '@islanddao-platform/web-core-ui'
+import { CoreUiButton } from '@islanddao-platform/web-core-ui'
 import { Checkbox, Select, TextInput } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { UiStack } from '@pubkey-ui/core'
@@ -66,9 +66,7 @@ export function ManagerProjectUiCreateForm({
             onChange={(event) => setAddMore(event.currentTarget.checked)}
           />
         </UiStack>
-        <CoreUiButton styles={{ root: { ...pinkGradient } }} type="submit">
-          Add draft project
-        </CoreUiButton>
+        <CoreUiButton type="submit">Add draft project</CoreUiButton>
       </UiStack>
     </form>
   )

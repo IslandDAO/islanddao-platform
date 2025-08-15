@@ -1,4 +1,4 @@
-import { CoreUiLogoType, pinkGradientText } from '@islanddao-platform/web-core-ui'
+import { CoreUiLogoType } from '@islanddao-platform/web-core-ui'
 import { Box, Group, Stack, Text } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { ReactNode } from 'react'
@@ -23,7 +23,7 @@ export function AuthUiPage({ authEnabled, children }: { authEnabled: boolean; ch
               </Text>
               <Text fz="lg" c="white">
                 The place where we inspire and reward{' '}
-                <Text component="span" inherit styles={{ root: { ...pinkGradientText } }}>
+                <Text component="span" inherit c="brand">
                   valuable feedback
                 </Text>
               </Text>

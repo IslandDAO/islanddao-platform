@@ -1,5 +1,5 @@
 import { ReviewerCreateCommentInput } from '@islanddao-platform/sdk'
-import { CoreUiButton, CoreUiEditor, pinkGradient, useCoreUiEditor } from '@islanddao-platform/web-core-ui'
+import { CoreUiButton, CoreUiEditor, useCoreUiEditor } from '@islanddao-platform/web-core-ui'
 import { Button, Group, Text } from '@mantine/core'
 import { toastError, UiStack } from '@pubkey-ui/core'
 import { IconMessageCircle2Filled } from '@tabler/icons-react'
@@ -37,7 +37,6 @@ export function ReviewerCommentUiForm({
         <CoreUiButton
           loading={loading}
           size="xs"
-          styles={{ root: { ...pinkGradient } }}
           rightSection={<IconMessageCircle2Filled size={16} />}
           onClick={() => {
             if (!editor.getText().length) {

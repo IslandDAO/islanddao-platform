@@ -1,0 +1,17 @@
+onlyBuiltDependencies:
+  - '@apollo/protobufjs'
+  - '@nestjs/core'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - '@swc/core'
+  - bcrypt
+  - bigint-buffer
+  - bufferutil
+  - core-js
+  - core-js-pure
+  - cypress
+  - esbuild
+  - nice-napi
+  - nx
+  - prisma
+  - utf-8-validate

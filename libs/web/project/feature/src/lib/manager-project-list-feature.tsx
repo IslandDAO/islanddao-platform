@@ -1,12 +1,6 @@
 import { getEnumOptions, projectOrderByOptions, ProjectStatus } from '@islanddao-platform/sdk'
 import { useManagerFindManyCommunity } from '@islanddao-platform/web-community-data-access'
-import {
-  CoreUiCustomSelect,
-  CoreUiDebugModal,
-  CoreUiSearchField,
-  modalStyles,
-  pinkGradient,
-} from '@islanddao-platform/web-core-ui'
+import { CoreUiCustomSelect, CoreUiDebugModal, CoreUiSearchField } from '@islanddao-platform/web-core-ui'
 import { useManagerFindManyProject } from '@islanddao-platform/web-project-data-access'
 import { ProjectUiEmptyState, ProjectUiGrid } from '@islanddao-platform/web-project-ui'
 import { Button, Group, Switch } from '@mantine/core'
@@ -60,14 +54,12 @@ export function ManagerProjectListFeature({ communityId }: { communityId?: strin
           <CoreUiDebugModal data={items} />
           <Button
             radius="xl"
-            styles={{ root: { ...pinkGradient } }}
             leftSection={<IconPlus size={16} />}
             onClick={() => {
               modals.open({
                 title: 'Create a project',
                 centered: true,
                 radius: 'xl',
-                styles: { ...modalStyles },
                 children: (
                   <ManagerProjectCreateFeature
                     communityId={communityId}
