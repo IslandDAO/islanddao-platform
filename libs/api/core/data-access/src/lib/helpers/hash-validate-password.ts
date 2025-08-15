@@ -1,4 +1,4 @@
-import { compareSync, hashSync } from 'bcrypt'
+import { compareSync, hashSync } from 'bcryptjs'
 
 export function hashPassword(password: string): string {
   return hashSync(password, 10)

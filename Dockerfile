@@ -5,9 +5,9 @@
 # - set global configuration
 # - set default work dir
 ################################################################################
-FROM node:20.10-alpine as base
+FROM node:24.5.0-alpine AS base
 
-RUN apk add --update --no-cache git python3 make g++
+RUN apk add --update --no-cache git python3 make g++ openssl
 
 RUN npm install -g pnpm
 
