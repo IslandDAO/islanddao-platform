@@ -1,12 +1,12 @@
-import { useAdminFindManyCommunity } from '@deanslist-platform/web-community-data-access'
-import { AdminCommunityUiTable } from '@deanslist-platform/web-community-ui'
+import { useAdminFindManyCommunity } from '@islanddao-platform/web-community-data-access'
+import { AdminCommunityUiTable } from '@islanddao-platform/web-community-ui'
 import {
   CoreUiBack,
   CoreUiDebugModal,
   CoreUiPage,
   CoreUiPageLimit,
   CoreUiSearchField,
-} from '@deanslist-platform/web-core-ui'
+} from '@islanddao-platform/web-core-ui'
 import { Group } from '@mantine/core'
 import { UiInfo, UiLoader } from '@pubkey-ui/core'
 

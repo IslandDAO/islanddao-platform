@@ -1,5 +1,5 @@
-import { ReviewerCreateCommentInput } from '@deanslist-platform/sdk'
-import { CoreUiButton, CoreUiEditor, pinkGradient, useCoreUiEditor } from '@deanslist-platform/web-core-ui'
+import { ReviewerCreateCommentInput } from '@islanddao-platform/sdk'
+import { CoreUiButton, CoreUiEditor, pinkGradient, useCoreUiEditor } from '@islanddao-platform/web-core-ui'
 import { Button, Group, Text } from '@mantine/core'
 import { toastError, UiStack } from '@pubkey-ui/core'
 import { IconMessageCircle2Filled } from '@tabler/icons-react'

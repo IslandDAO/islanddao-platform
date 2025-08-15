@@ -1,4 +1,4 @@
-import { User, UserFindManyUserInput, UserUpdateUserInput } from '@deanslist-platform/sdk'
+import { User, UserFindManyUserInput, UserUpdateUserInput } from '@islanddao-platform/sdk'
 import { getAliceCookie, sdk } from '../support'
 
 describe('api-user-feature', () => {

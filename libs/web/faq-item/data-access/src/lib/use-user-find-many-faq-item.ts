@@ -1,4 +1,4 @@
-import { FaqItemGroup, FaqItemUserFindManyInput, sdk } from '@deanslist-platform/sdk'
+import { FaqItemGroup, FaqItemUserFindManyInput, sdk } from '@islanddao-platform/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 

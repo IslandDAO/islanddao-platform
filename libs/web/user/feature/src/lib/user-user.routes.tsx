@@ -1,4 +1,4 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { UiWarning } from '@pubkey-ui/core'
 import { Route, Routes } from 'react-router-dom'
 import { UserUserDetailFeature } from './user-user-detail-feature'

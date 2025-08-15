@@ -1,5 +1,5 @@
-import { ellipsify, Identity } from '@deanslist-platform/sdk'
-import { CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
+import { ellipsify, Identity } from '@islanddao-platform/sdk'
+import { CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
 import { ActionIcon, Badge, Code, Group, Menu, Text } from '@mantine/core'
 import { UiCard, UiGroup, UiStack } from '@pubkey-ui/core'
 import { IconDotsVertical, IconTrash } from '@tabler/icons-react'

@@ -1,4 +1,4 @@
-import { useIdentitySolanaLogin } from '@deanslist-platform/web-identity-data-access'
+import { useIdentitySolanaLogin } from '@islanddao-platform/web-identity-data-access'
 import { toastError } from '@pubkey-ui/core'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { useEffect, useState } from 'react'

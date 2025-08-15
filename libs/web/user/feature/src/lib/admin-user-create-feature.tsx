@@ -1,7 +1,7 @@
-import { AdminCreateUserInput } from '@deanslist-platform/sdk'
-import { CoreUiBack } from '@deanslist-platform/web-core-ui'
-import { useAdminFindManyUser } from '@deanslist-platform/web-user-data-access'
-import { AdminUiCreateUserForm } from '@deanslist-platform/web-user-ui'
+import { AdminCreateUserInput } from '@islanddao-platform/sdk'
+import { CoreUiBack } from '@islanddao-platform/web-core-ui'
+import { useAdminFindManyUser } from '@islanddao-platform/web-user-data-access'
+import { AdminUiCreateUserForm } from '@islanddao-platform/web-user-ui'
 import { toastError, UiCard, UiPage } from '@pubkey-ui/core'
 import { useNavigate } from 'react-router-dom'
 

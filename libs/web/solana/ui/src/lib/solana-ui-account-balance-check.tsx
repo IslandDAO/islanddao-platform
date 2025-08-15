@@ -1,5 +1,5 @@
 import { Button, Group, Text } from '@mantine/core'
-import { useRequestAirdrop, useCluster, useGetBalance } from '@deanslist-platform/web-solana-data-access'
+import { useRequestAirdrop, useCluster, useGetBalance } from '@islanddao-platform/web-solana-data-access'
 import { UiWarning } from '@pubkey-ui/core'
 import { PublicKey } from '@solana/web3.js'
 import { IconUserOff } from '@tabler/icons-react'

@@ -1,5 +1,5 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
-import { ProjectCreatedEvent, ProjectDeletedEvent } from '@deanslist-platform/api-project-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
+import { ProjectCreatedEvent, ProjectDeletedEvent } from '@islanddao-platform/api-project-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { ApiDiscordBotService } from './api-discord-bot.service'

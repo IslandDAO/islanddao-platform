@@ -1,4 +1,4 @@
-import { AdminUpdateRatingInput, Rating } from '@deanslist-platform/sdk'
+import { AdminUpdateRatingInput, Rating } from '@islanddao-platform/sdk'
 import { Button, Group } from '@mantine/core'
 import { formFieldText, UiForm, UiFormField } from '@pubkey-ui/core'
 

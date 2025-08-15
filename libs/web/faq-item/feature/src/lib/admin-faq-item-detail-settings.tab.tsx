@@ -1,5 +1,5 @@
-import { useAdminFindOneFaqItem } from '@deanslist-platform/web-faq-item-data-access'
-import { AdminFaqItemUiUpdateForm } from '@deanslist-platform/web-faq-item-ui'
+import { useAdminFindOneFaqItem } from '@islanddao-platform/web-faq-item-data-access'
+import { AdminFaqItemUiUpdateForm } from '@islanddao-platform/web-faq-item-ui'
 import { UiCard, UiError, UiLoader } from '@pubkey-ui/core'
 
 export function AdminFaqItemDetailSettingsTab({ faqItemId }: { faqItemId: string }) {

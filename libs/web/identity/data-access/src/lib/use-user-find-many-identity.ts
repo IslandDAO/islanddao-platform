@@ -1,4 +1,4 @@
-import { Identity, IdentityProvider, sdk, type UserFindManyIdentityInput } from '@deanslist-platform/sdk'
+import { Identity, IdentityProvider, sdk, type UserFindManyIdentityInput } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'

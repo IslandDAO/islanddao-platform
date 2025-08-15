@@ -1,4 +1,4 @@
-import { FaqItem } from '@deanslist-platform/sdk'
+import { FaqItem } from '@islanddao-platform/sdk'
 import { ActionIcon, Anchor, Group, ScrollArea } from '@mantine/core'
 import { IconPencil, IconTrash } from '@tabler/icons-react'
 import { DataTable } from 'mantine-datatable'

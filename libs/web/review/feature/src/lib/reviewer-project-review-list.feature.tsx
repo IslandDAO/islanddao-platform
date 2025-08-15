@@ -1,10 +1,10 @@
-import { CoreUiDebugModal, CoreUiSearchField } from '@deanslist-platform/web-core-ui'
-import { ProjectUiUserReviewButton } from '@deanslist-platform/web-project-ui'
+import { CoreUiDebugModal, CoreUiSearchField } from '@islanddao-platform/web-core-ui'
+import { ProjectUiUserReviewButton } from '@islanddao-platform/web-project-ui'
 import {
   useReviewerFindManyReviewByProject,
   useReviewerFindUserProjectReview,
-} from '@deanslist-platform/web-review-data-access'
-import { ReviewerReviewProjectUiTable, ReviewUiEmptyState } from '@deanslist-platform/web-review-ui'
+} from '@islanddao-platform/web-review-data-access'
+import { ReviewerReviewProjectUiTable, ReviewUiEmptyState } from '@islanddao-platform/web-review-ui'
 import { Group } from '@mantine/core'
 import { UiLoader, UiStack } from '@pubkey-ui/core'
 

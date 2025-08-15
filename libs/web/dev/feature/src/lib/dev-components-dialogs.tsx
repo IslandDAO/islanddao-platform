@@ -1,4 +1,4 @@
-import { CoreUiCheckbox, CoreUiButton, CoreUiInput, CoreUiModal } from '@deanslist-platform/web-core-ui'
+import { CoreUiCheckbox, CoreUiButton, CoreUiInput, CoreUiModal } from '@islanddao-platform/web-core-ui'
 import { UiCard, UiStack } from '@pubkey-ui/core'
 import { useDisclosure } from '@mantine/hooks'
 

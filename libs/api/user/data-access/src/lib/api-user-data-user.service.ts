@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { ApiUserDataService } from './api-user-data.service'
 import { UserFindManyUserInput } from './dto/user-find-many-user.input'

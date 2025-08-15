@@ -1,4 +1,4 @@
-import { AdminUpdateCommunityInput, sdk } from '@deanslist-platform/sdk'
+import { AdminUpdateCommunityInput, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 

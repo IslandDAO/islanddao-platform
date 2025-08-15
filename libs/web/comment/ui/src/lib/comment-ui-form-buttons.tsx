@@ -1,5 +1,5 @@
-import { Comment, ReviewerCreateCommentInput } from '@deanslist-platform/sdk'
-import { pinkGradient } from '@deanslist-platform/web-core-ui'
+import { Comment, ReviewerCreateCommentInput } from '@islanddao-platform/sdk'
+import { pinkGradient } from '@islanddao-platform/web-core-ui'
 import { Button, ButtonProps, Collapse, Text } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
 import { UiGroup, UiStack } from '@pubkey-ui/core'

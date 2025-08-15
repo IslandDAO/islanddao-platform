@@ -1,10 +1,10 @@
-import { ApiAuthGraphQLAdminGuard } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLAdminGuard } from '@islanddao-platform/api-auth-data-access'
 import {
   AdminFindManyReviewInput,
   ApiReviewService,
   Review,
   ReviewPaging,
-} from '@deanslist-platform/api-review-data-access'
+} from '@islanddao-platform/api-review-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

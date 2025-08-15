@@ -1,4 +1,4 @@
-import { Project } from '@deanslist-platform/sdk'
+import { Project } from '@islanddao-platform/sdk'
 import { UiAvatar, UiAvatarProps } from '@pubkey-ui/core'
 
 export type ProjectUiAvatarProps = UiAvatarProps & {

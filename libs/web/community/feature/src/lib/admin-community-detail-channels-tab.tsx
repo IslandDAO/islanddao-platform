@@ -2,8 +2,8 @@ import {
   useAdminCreateCommunityChannel,
   useAdminGetDiscordServers,
   useAdminGetCommunityChannels,
-} from '@deanslist-platform/web-discord-data-access'
-import { AdminDiscordUiChannelCreateForm } from '@deanslist-platform/web-discord-ui'
+} from '@islanddao-platform/web-discord-data-access'
+import { AdminDiscordUiChannelCreateForm } from '@islanddao-platform/web-discord-ui'
 import { Grid } from '@mantine/core'
 import { UiInfo, UiLoader, UiStack } from '@pubkey-ui/core'
 import { AdminCommunityDetailChannel } from './admin-community-detail-channel'

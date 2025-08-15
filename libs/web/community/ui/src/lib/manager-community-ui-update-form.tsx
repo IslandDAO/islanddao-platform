@@ -1,5 +1,5 @@
-import { Community, DiscordServer, ManagerUpdateCommunityInput } from '@deanslist-platform/sdk'
-import { CoreUiCard } from '@deanslist-platform/web-core-ui'
+import { Community, DiscordServer, ManagerUpdateCommunityInput } from '@islanddao-platform/sdk'
+import { CoreUiCard } from '@islanddao-platform/web-core-ui'
 import { Button, Group, Select, TextInput } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { UiStack } from '@pubkey-ui/core'

@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/api-user-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Injectable } from '@nestjs/common'
 import { UserRole } from '@prisma/client'
 import { ApiCommunityDataService } from './api-community-data.service'

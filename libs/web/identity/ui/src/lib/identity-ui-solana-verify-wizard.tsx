@@ -1,5 +1,5 @@
-import { Identity, IdentityProvider } from '@deanslist-platform/sdk'
-import { useIdentitySolana } from '@deanslist-platform/web-identity-data-access'
+import { Identity, IdentityProvider } from '@islanddao-platform/sdk'
+import { useIdentitySolana } from '@islanddao-platform/web-identity-data-access'
 import { toastError } from '@pubkey-ui/core'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { useEffect, useMemo, useState } from 'react'

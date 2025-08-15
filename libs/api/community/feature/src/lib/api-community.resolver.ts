@@ -1,4 +1,4 @@
-import { ApiCommunityService, Community } from '@deanslist-platform/api-community-data-access'
+import { ApiCommunityService, Community } from '@islanddao-platform/api-community-data-access'
 import { Int, Parent, ResolveField, Resolver } from '@nestjs/graphql'
 import { Project, ProjectStatus } from '@prisma/client'
 

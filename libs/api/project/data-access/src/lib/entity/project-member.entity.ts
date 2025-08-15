@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/api-user-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Field, HideField, Int, ObjectType } from '@nestjs/graphql'
 import { Comment, Review } from '@prisma/client'
 import { ProjectRole } from './project-role.enum'

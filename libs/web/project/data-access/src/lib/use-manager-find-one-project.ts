@@ -1,4 +1,4 @@
-import { ManagerUpdateProjectInput, ProjectStatus, sdk } from '@deanslist-platform/sdk'
+import { ManagerUpdateProjectInput, ProjectStatus, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 

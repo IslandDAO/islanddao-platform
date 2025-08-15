@@ -1,6 +1,6 @@
-import { AuthProvider } from '@deanslist-platform/web-auth-data-access'
-import { CoreUiThemeProvider } from '@deanslist-platform/web-core-ui'
-import { SolanaClusterProvider } from '@deanslist-platform/web-solana-data-access'
+import { AuthProvider } from '@islanddao-platform/web-auth-data-access'
+import { CoreUiThemeProvider } from '@islanddao-platform/web-core-ui'
+import { SolanaClusterProvider } from '@islanddao-platform/web-solana-data-access'
 import { toastError } from '@pubkey-ui/core'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 

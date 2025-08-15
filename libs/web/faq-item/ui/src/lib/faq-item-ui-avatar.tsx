@@ -1,4 +1,4 @@
-import { FaqItem } from '@deanslist-platform/sdk'
+import { FaqItem } from '@islanddao-platform/sdk'
 import { UiAvatar, UiAvatarProps } from '@pubkey-ui/core'
 
 export type FaqItemUiAvatarProps = UiAvatarProps & {

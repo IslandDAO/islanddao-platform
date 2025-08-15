@@ -1,4 +1,4 @@
-import { DiscordChannel, DiscordServer } from '@deanslist-platform/sdk'
+import { DiscordChannel, DiscordServer } from '@islanddao-platform/sdk'
 import { Group } from '@mantine/core'
 import { UiCard, UiStack } from '@pubkey-ui/core'
 import { useState } from 'react'

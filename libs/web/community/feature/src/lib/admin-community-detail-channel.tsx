@@ -1,11 +1,11 @@
-import { DiscordChannel } from '@deanslist-platform/sdk'
-import { CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
-import { useAdminGetDiscordServers } from '@deanslist-platform/web-discord-data-access'
+import { DiscordChannel } from '@islanddao-platform/sdk'
+import { CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
+import { useAdminGetDiscordServers } from '@islanddao-platform/web-discord-data-access'
 import {
   AdminDiscordUiChannelPingIcon,
   AdminDiscordUiCommunityChannelDeleteButton,
   DiscordUiServerItem,
-} from '@deanslist-platform/web-discord-ui'
+} from '@islanddao-platform/web-discord-ui'
 import { Anchor, Group, Text, Tooltip } from '@mantine/core'
 import { UiCard, UiGroup, UiStack } from '@pubkey-ui/core'
 

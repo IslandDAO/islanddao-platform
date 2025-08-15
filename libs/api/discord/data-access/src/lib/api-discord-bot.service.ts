@@ -1,5 +1,5 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
-import { DiscordBot } from '@deanslist-platform/api-discord-util'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
+import { DiscordBot } from '@islanddao-platform/api-discord-util'
 import { Injectable, Logger, OnApplicationBootstrap } from '@nestjs/common'
 import { Collection, MessageCreateOptions, PermissionsBitField } from 'discord.js'
 import { ApiDiscordBotCommandService } from './api-discord-bot-command.service'

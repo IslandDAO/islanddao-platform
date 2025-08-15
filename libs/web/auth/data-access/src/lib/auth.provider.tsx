@@ -1,4 +1,4 @@
-import { AppConfig, IdentityProvider, LoginInput, RegisterInput, sdk, User, UserRole } from '@deanslist-platform/sdk'
+import { AppConfig, IdentityProvider, LoginInput, RegisterInput, sdk, User, UserRole } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 import { createContext, ReactNode, useContext, useEffect, useMemo, useReducer } from 'react'

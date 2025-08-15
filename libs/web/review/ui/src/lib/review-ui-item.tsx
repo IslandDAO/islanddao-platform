@@ -1,4 +1,4 @@
-import { Review } from '@deanslist-platform/sdk'
+import { Review } from '@islanddao-platform/sdk'
 import { AvatarProps, Group, type GroupProps, Stack, Text } from '@mantine/core'
 import { UiAnchor, type UiAnchorProps } from '@pubkey-ui/core'
 import { ReviewUiAvatar } from './review-ui-avatar'

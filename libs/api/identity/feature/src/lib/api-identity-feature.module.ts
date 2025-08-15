@@ -1,4 +1,4 @@
-import { ApiIdentityDataAccessModule } from '@deanslist-platform/api-identity-data-access'
+import { ApiIdentityDataAccessModule } from '@islanddao-platform/api-identity-data-access'
 import { Module } from '@nestjs/common'
 import { ApiIdentityAdminResolver } from './api-identity-admin.resolver'
 import { ApiIdentityAnonResolver } from './api-identity-anon.resolver'

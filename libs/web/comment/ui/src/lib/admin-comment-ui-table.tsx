@@ -1,5 +1,5 @@
-import { Comment } from '@deanslist-platform/sdk'
-import { CoreUiContent, CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
+import { Comment } from '@islanddao-platform/sdk'
+import { CoreUiContent, CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
 import { ActionIcon, Group, ScrollArea } from '@mantine/core'
 import { IconTrash } from '@tabler/icons-react'
 import { DataTable } from 'mantine-datatable'

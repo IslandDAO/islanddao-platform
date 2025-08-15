@@ -1,11 +1,11 @@
-import { ApiAuthGraphQLUserGuard, CtxUserId } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLUserGuard, CtxUserId } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiUserService,
   User,
   UserFindManyUserInput,
   UserPaging,
   UserUpdateUserInput,
-} from '@deanslist-platform/api-user-data-access'
+} from '@islanddao-platform/api-user-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

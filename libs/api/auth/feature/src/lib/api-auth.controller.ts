@@ -1,6 +1,6 @@
 import { Controller, Get, Req, UseGuards } from '@nestjs/common'
 
-import { ApiAnonJwtGuard, ApiAuthRequest, ApiAuthService } from '@deanslist-platform/api-auth-data-access'
+import { ApiAnonJwtGuard, ApiAuthRequest, ApiAuthService } from '@islanddao-platform/api-auth-data-access'
 
 @Controller('auth')
 export class ApiAuthController {

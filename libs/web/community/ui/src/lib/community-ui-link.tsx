@@ -1,4 +1,4 @@
-import { Community } from '@deanslist-platform/sdk'
+import { Community } from '@islanddao-platform/sdk'
 import { AvatarProps, Group, type GroupProps, Text } from '@mantine/core'
 import { UiAnchor, UiAnchorProps } from '@pubkey-ui/core'
 import { CommunityUiAvatar } from './community-ui-avatar'

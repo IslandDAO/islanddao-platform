@@ -1,5 +1,5 @@
-import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput } from '@deanslist-platform/sdk'
-import { CoreUiDivider } from '@deanslist-platform/web-core-ui'
+import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput } from '@islanddao-platform/sdk'
+import { CoreUiDivider } from '@islanddao-platform/web-core-ui'
 import { UiStack } from '@pubkey-ui/core'
 import React from 'react'
 import { ManagerCommentUiTimelineItem } from './manager-comment-ui-timeline-item'

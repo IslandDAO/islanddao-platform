@@ -1,4 +1,4 @@
-import { Comment } from '@deanslist-platform/sdk'
+import { Comment } from '@islanddao-platform/sdk'
 import { UiAvatar, UiAvatarProps } from '@pubkey-ui/core'
 
 export type CommentUiAvatarProps = UiAvatarProps & {

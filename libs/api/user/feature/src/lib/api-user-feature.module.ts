@@ -1,4 +1,4 @@
-import { ApiUserDataAccessModule } from '@deanslist-platform/api-user-data-access'
+import { ApiUserDataAccessModule } from '@islanddao-platform/api-user-data-access'
 import { Module } from '@nestjs/common'
 import { ApiUserAdminResolver } from './api-user-admin.resolver'
 import { ApiUserAnonController } from './api-user-anon.controller'

@@ -1,6 +1,6 @@
-import { CoreUiCard } from '@deanslist-platform/web-core-ui'
-import { useAdminFindOneProject } from '@deanslist-platform/web-project-data-access'
-import { AdminProjectMemberUiTable, ProjectUiAddMember } from '@deanslist-platform/web-project-ui'
+import { CoreUiCard } from '@islanddao-platform/web-core-ui'
+import { useAdminFindOneProject } from '@islanddao-platform/web-project-data-access'
+import { AdminProjectMemberUiTable, ProjectUiAddMember } from '@islanddao-platform/web-project-ui'
 import { UiError, UiLoader, UiStack } from '@pubkey-ui/core'
 
 export function AdminProjectDetailTeamTab({ projectId }: { projectId: string }) {

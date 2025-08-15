@@ -1,11 +1,11 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import {
   useManagerFindOneCommunity,
   useManagerGetCommunityManager,
-} from '@deanslist-platform/web-community-data-access'
-import { CommunityUiItem } from '@deanslist-platform/web-community-ui'
-import { CoreUiButton, CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
-import { ManagerProjectFeature } from '@deanslist-platform/web-project-feature'
+} from '@islanddao-platform/web-community-data-access'
+import { CommunityUiItem } from '@islanddao-platform/web-community-ui'
+import { CoreUiButton, CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
+import { ManagerProjectFeature } from '@islanddao-platform/web-project-feature'
 import { Group } from '@mantine/core'
 import { UiContainer, UiError, UiGroup, UiLoader, UiStack, UiTabRoute, UiTabRoutes } from '@pubkey-ui/core'
 import { IconShield } from '@tabler/icons-react'

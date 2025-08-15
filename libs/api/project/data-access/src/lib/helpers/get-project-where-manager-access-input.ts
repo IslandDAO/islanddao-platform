@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/api-user-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Prisma, UserRole } from '@prisma/client'
 
 export function getProjectWhereManagerAccessInput({ id: userId, role }: User): Prisma.ProjectWhereInput {

@@ -1,7 +1,7 @@
-import { useManagerFindManyComment } from '@deanslist-platform/web-comment-data-access'
-import { ManagerCommentUiTimeline } from '@deanslist-platform/web-comment-ui'
-import { CoreUiDebugModal, CoreUiSearchField } from '@deanslist-platform/web-core-ui'
-import { useManagerRating } from '@deanslist-platform/web-rating-data-access'
+import { useManagerFindManyComment } from '@islanddao-platform/web-comment-data-access'
+import { ManagerCommentUiTimeline } from '@islanddao-platform/web-comment-ui'
+import { CoreUiDebugModal, CoreUiSearchField } from '@islanddao-platform/web-core-ui'
+import { useManagerRating } from '@islanddao-platform/web-rating-data-access'
 import { Group } from '@mantine/core'
 import { UiGroup, UiInfo, UiLoader, UiStack } from '@pubkey-ui/core'
 

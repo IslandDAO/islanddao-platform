@@ -5,8 +5,8 @@ import {
   ProjectMember,
   ProjectRole,
   ProjectStatus,
-} from '@deanslist-platform/sdk'
-import { CoreUiButton, CoreUiDivider, CoreUiProgress } from '@deanslist-platform/web-core-ui'
+} from '@islanddao-platform/sdk'
+import { CoreUiButton, CoreUiDivider, CoreUiProgress } from '@islanddao-platform/web-core-ui'
 import { Group, Text } from '@mantine/core'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
 import { ManagerProjectUiPayoutItemForm } from './manager-project-ui-payout-item-form'

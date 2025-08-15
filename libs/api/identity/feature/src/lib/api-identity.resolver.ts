@@ -1,6 +1,6 @@
 import { Parent, ResolveField, Resolver } from '@nestjs/graphql'
 import { IdentityProvider } from '@prisma/client'
-import { getIdentityUrl, Identity } from '@deanslist-platform/api-identity-data-access'
+import { getIdentityUrl, Identity } from '@islanddao-platform/api-identity-data-access'
 
 @Resolver(() => Identity)
 export class ApiIdentityResolver {

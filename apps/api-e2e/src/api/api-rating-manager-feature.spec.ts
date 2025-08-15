@@ -1,4 +1,4 @@
-import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput, Project, Rating } from '@deanslist-platform/sdk'
+import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput, Project, Rating } from '@islanddao-platform/sdk'
 import {
   adminUpdateProject,
   adminUpdateProjectStatusClosed,

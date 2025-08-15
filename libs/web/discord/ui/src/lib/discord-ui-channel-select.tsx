@@ -1,5 +1,5 @@
-import { DiscordChannel } from '@deanslist-platform/sdk'
-import { useGetDiscordChannelOptions } from '@deanslist-platform/web-discord-data-access'
+import { DiscordChannel } from '@islanddao-platform/sdk'
+import { useGetDiscordChannelOptions } from '@islanddao-platform/web-discord-data-access'
 import { Select, SelectProps } from '@mantine/core'
 
 export function DiscordUiChannelSelect({

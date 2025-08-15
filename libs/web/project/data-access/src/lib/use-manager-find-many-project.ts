@@ -6,7 +6,7 @@ import {
   ProjectOrderBy,
   ProjectStatus,
   sdk,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'

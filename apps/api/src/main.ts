@@ -1,4 +1,4 @@
-import { ApiCoreService, CORE_APP_STARTED } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, CORE_APP_STARTED } from '@islanddao-platform/api-core-data-access'
 import { Logger } from '@nestjs/common'
 import { NestFactory } from '@nestjs/core'
 import cookieParser from 'cookie-parser'

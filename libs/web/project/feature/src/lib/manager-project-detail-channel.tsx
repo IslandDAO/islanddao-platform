@@ -1,7 +1,7 @@
-import { DiscordChannel } from '@deanslist-platform/sdk'
-import { CoreUiCard, CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
-import { useManagerGetDiscordServers } from '@deanslist-platform/web-discord-data-access'
-import { DiscordUiServerItem } from '@deanslist-platform/web-discord-ui'
+import { DiscordChannel } from '@islanddao-platform/sdk'
+import { CoreUiCard, CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
+import { useManagerGetDiscordServers } from '@islanddao-platform/web-discord-data-access'
+import { DiscordUiServerItem } from '@islanddao-platform/web-discord-ui'
 import { Anchor, Group, Text, Tooltip } from '@mantine/core'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
 

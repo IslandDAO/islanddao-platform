@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/sdk'
+import { User } from '@islanddao-platform/sdk'
 import { AvatarProps, Group, type GroupProps, Text } from '@mantine/core'
 import { UiAnchor, UiAnchorProps } from '@pubkey-ui/core'
 import { UserUiAvatar } from './user-ui-avatar'

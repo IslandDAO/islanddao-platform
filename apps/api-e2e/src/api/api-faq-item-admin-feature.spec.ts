@@ -1,4 +1,4 @@
-import { FaqItem, FaqItemAdminFindManyInput, FaqItemAdminUpdateInput, FaqItemGroup } from '@deanslist-platform/sdk'
+import { FaqItem, FaqItemAdminFindManyInput, FaqItemAdminUpdateInput, FaqItemGroup } from '@islanddao-platform/sdk'
 import { getAliceCookie, getBobCookie, sdk, uniqueId } from '../support'
 
 describe('api-faq-item-feature', () => {

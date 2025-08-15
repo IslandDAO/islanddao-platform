@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { IdentityProvider, Prisma, UserRole, UserStatus } from '@prisma/client'
 

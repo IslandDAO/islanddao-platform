@@ -1,4 +1,4 @@
-import { ApiCoreService, slugifyUsername } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, slugifyUsername } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { User as PrismaUser } from '@prisma/client'
 import { ApiUserDataService } from './api-user-data.service'

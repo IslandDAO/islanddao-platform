@@ -1,6 +1,6 @@
-import { CoreUiSearchField } from '@deanslist-platform/web-core-ui'
-import { useUserFindManyUser } from '@deanslist-platform/web-user-data-access'
-import { UserUiGrid } from '@deanslist-platform/web-user-ui'
+import { CoreUiSearchField } from '@islanddao-platform/web-core-ui'
+import { useUserFindManyUser } from '@islanddao-platform/web-user-data-access'
+import { UserUiGrid } from '@islanddao-platform/web-user-ui'
 import { UiInfo, UiLoader, UiPage } from '@pubkey-ui/core'
 import { IconUsers, IconUserSearch } from '@tabler/icons-react'
 

@@ -1,6 +1,6 @@
-import { ManagerUpdateProjectMemberInput, MaybeNumber, ProjectMember, User } from '@deanslist-platform/sdk'
-import { CoreUiCurrencyInput, CoreUiRating } from '@deanslist-platform/web-core-ui'
-import { UserUiItem } from '@deanslist-platform/web-user-ui'
+import { ManagerUpdateProjectMemberInput, MaybeNumber, ProjectMember, User } from '@islanddao-platform/sdk'
+import { CoreUiCurrencyInput, CoreUiRating } from '@islanddao-platform/web-core-ui'
+import { UserUiItem } from '@islanddao-platform/web-user-ui'
 import { Group } from '@mantine/core'
 import { useForm } from '@mantine/form'
 

@@ -5,7 +5,7 @@ import {
   ApiAuthRequest,
   ApiAuthService,
   ApiAuthStrategyDiscordGuard,
-} from '@deanslist-platform/api-auth-data-access'
+} from '@islanddao-platform/api-auth-data-access'
 import { Response } from 'express-serve-static-core'
 
 @Controller('auth/discord')

@@ -4,7 +4,7 @@ import {
   hashPassword,
   slugifyUsername,
   validatePassword,
-} from '@deanslist-platform/api-core-data-access'
+} from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger, Res } from '@nestjs/common'
 import { JwtService } from '@nestjs/jwt'
 import { User, UserStatus } from '@prisma/client'

@@ -1,5 +1,5 @@
-import { addDays } from '@deanslist-platform/api-core-data-access'
-import { OrderDirection, ProjectOrderBy, ProjectStatus, ReviewerFindManyProjectInput } from '@deanslist-platform/sdk'
+import { addDays } from '@islanddao-platform/api-core-data-access'
+import { OrderDirection, ProjectOrderBy, ProjectStatus, ReviewerFindManyProjectInput } from '@islanddao-platform/sdk'
 import {
   adminUpdateProject,
   getAliceCookie,

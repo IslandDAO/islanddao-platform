@@ -1,5 +1,5 @@
-import { sdk, UserUpdateUserInput } from '@deanslist-platform/sdk'
-import { useAuth, useMe } from '@deanslist-platform/web-auth-data-access'
+import { sdk, UserUpdateUserInput } from '@islanddao-platform/sdk'
+import { useAuth, useMe } from '@islanddao-platform/web-auth-data-access'
 import { toastError } from '@pubkey-ui/core'
 import { useUserFineOneUser } from './use-user-fine-one-user'
 

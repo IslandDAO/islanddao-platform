@@ -1,5 +1,5 @@
-import { useAdminFindOneUser } from '@deanslist-platform/web-user-data-access'
-import { AdminUiUpdateUserForm } from '@deanslist-platform/web-user-ui'
+import { useAdminFindOneUser } from '@islanddao-platform/web-user-data-access'
+import { AdminUiUpdateUserForm } from '@islanddao-platform/web-user-ui'
 import { UiCard, UiError, UiLoader } from '@pubkey-ui/core'
 
 export function AdminUserDetailFeatureSettings({ userId }: { userId: string }) {

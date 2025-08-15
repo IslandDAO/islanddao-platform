@@ -1,4 +1,4 @@
-import { ApiUserService } from '@deanslist-platform/api-user-data-access'
+import { ApiUserService } from '@islanddao-platform/api-user-data-access'
 import { Controller, Get } from '@nestjs/common'
 
 @Controller('users')

@@ -1,4 +1,4 @@
-import { DiscordServer } from '@deanslist-platform/sdk'
+import { DiscordServer } from '@islanddao-platform/sdk'
 import { Select, SelectProps } from '@mantine/core'
 
 export function DiscordUiServerSelect({

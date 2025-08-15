@@ -1,5 +1,5 @@
-import { User } from '@deanslist-platform/sdk'
-import { useUserFindManyUser } from '@deanslist-platform/web-user-data-access'
+import { User } from '@islanddao-platform/sdk'
+import { useUserFindManyUser } from '@islanddao-platform/web-user-data-access'
 import { UserUiAutocomplete, type UserUiAutocompleteProps } from './user-ui-autocomplete'
 
 export interface UserUiSearchProps extends Omit<UserUiAutocompleteProps, 'items' | 'isLoading' | 'setSearch'> {

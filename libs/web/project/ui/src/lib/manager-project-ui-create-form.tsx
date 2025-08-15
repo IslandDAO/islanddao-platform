@@ -1,5 +1,5 @@
-import { Community, ManagerCreateProjectInput } from '@deanslist-platform/sdk'
-import { CoreUiButton, pinkGradient } from '@deanslist-platform/web-core-ui'
+import { Community, ManagerCreateProjectInput } from '@islanddao-platform/sdk'
+import { CoreUiButton, pinkGradient } from '@islanddao-platform/web-core-ui'
 import { Checkbox, Select, TextInput } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { UiStack } from '@pubkey-ui/core'

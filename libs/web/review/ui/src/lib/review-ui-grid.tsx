@@ -1,4 +1,4 @@
-import type { Review } from '@deanslist-platform/sdk'
+import type { Review } from '@islanddao-platform/sdk'
 import { SimpleGrid } from '@mantine/core'
 import { ReviewUiGridItem } from './review-ui-grid-item'
 

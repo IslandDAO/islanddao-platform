@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { Identity as PrismaIdentity, IdentityProvider } from '@prisma/client'
 import { AdminCreateIdentityInput } from './dto/admin-create-identity.input'

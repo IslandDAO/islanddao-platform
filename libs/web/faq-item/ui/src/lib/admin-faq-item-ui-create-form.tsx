@@ -1,4 +1,4 @@
-import { FaqItemAdminCreateInput, FaqItemGroup, getEnumOptions } from '@deanslist-platform/sdk'
+import { FaqItemAdminCreateInput, FaqItemGroup, getEnumOptions } from '@islanddao-platform/sdk'
 import { Button, Group, Select, TextInput } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { UiStack } from '@pubkey-ui/core'

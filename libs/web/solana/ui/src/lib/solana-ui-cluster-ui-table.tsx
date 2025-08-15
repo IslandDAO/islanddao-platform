@@ -1,5 +1,5 @@
 import { Anchor, Button, Table, Text } from '@mantine/core'
-import { useCluster } from '@deanslist-platform/web-solana-data-access'
+import { useCluster } from '@islanddao-platform/web-solana-data-access'
 import { IconTrash } from '@tabler/icons-react'
 
 export function SolanaUiClusterUiTable() {

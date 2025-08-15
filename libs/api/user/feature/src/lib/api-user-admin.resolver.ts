@@ -1,4 +1,4 @@
-import { ApiAuthGraphQLAdminGuard } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLAdminGuard } from '@islanddao-platform/api-auth-data-access'
 import {
   AdminCreateUserInput,
   AdminFindManyUserInput,
@@ -6,7 +6,7 @@ import {
   ApiUserService,
   User,
   UserPaging,
-} from '@deanslist-platform/api-user-data-access'
+} from '@islanddao-platform/api-user-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

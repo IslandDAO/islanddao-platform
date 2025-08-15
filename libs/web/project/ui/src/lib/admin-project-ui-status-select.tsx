@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from '@deanslist-platform/sdk'
+import { Project, ProjectStatus } from '@islanddao-platform/sdk'
 import { Group, Select } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { useRef } from 'react'

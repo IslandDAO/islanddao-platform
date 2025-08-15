@@ -1,6 +1,6 @@
-import { useManagerGetDiscordServers } from '@deanslist-platform/web-discord-data-access'
-import { useManagerFindOneCommunity } from '@deanslist-platform/web-community-data-access'
-import { ManagerCommunityUiUpdateForm } from '@deanslist-platform/web-community-ui'
+import { useManagerGetDiscordServers } from '@islanddao-platform/web-discord-data-access'
+import { useManagerFindOneCommunity } from '@islanddao-platform/web-community-data-access'
+import { ManagerCommunityUiUpdateForm } from '@islanddao-platform/web-community-ui'
 import { UiError, UiLoader } from '@pubkey-ui/core'
 
 export function ManagerCommunitySettingsGeneralTab({ communityId }: { communityId: string }) {

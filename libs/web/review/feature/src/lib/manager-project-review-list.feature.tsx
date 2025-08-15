@@ -1,6 +1,6 @@
-import { CoreUiDebugModal, CoreUiSearchField } from '@deanslist-platform/web-core-ui'
-import { useManagerFindManyReviewByProject } from '@deanslist-platform/web-review-data-access'
-import { ReviewerReviewProjectUiTable } from '@deanslist-platform/web-review-ui'
+import { CoreUiDebugModal, CoreUiSearchField } from '@islanddao-platform/web-core-ui'
+import { useManagerFindManyReviewByProject } from '@islanddao-platform/web-review-data-access'
+import { ReviewerReviewProjectUiTable } from '@islanddao-platform/web-review-ui'
 import { Group } from '@mantine/core'
 import { UiInfo, UiLoader, UiStack } from '@pubkey-ui/core'
 

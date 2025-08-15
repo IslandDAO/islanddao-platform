@@ -7,9 +7,9 @@ import {
   CtxUser,
   LoginInput,
   RegisterInput,
-} from '@deanslist-platform/api-auth-data-access'
-import { AppContext } from '@deanslist-platform/api-core-data-access'
-import { User } from '@deanslist-platform/api-user-data-access'
+} from '@islanddao-platform/api-auth-data-access'
+import { AppContext } from '@islanddao-platform/api-core-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 
 @Resolver()
 export class ApiAuthResolver {

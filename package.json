@@ -1,5 +1,5 @@
 {
-  "name": "@deanslist-platform/source",
+  "name": "@islanddao-platform/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -12,9 +12,9 @@
     "dev:services": "docker compose up",
     "dev:services:stop": "docker compose down",
     "dev:web": "nx serve web",
-    "docker:build:api": "docker build . -t ghcr.io/dean-s-list/deanslist-platform",
-    "docker:push:api": "docker push ghcr.io/dean-s-list/deanslist-platform",
-    "docker:run:api": "docker run -it -p 8000:3000 ghcr.io/dean-s-list/deanslist-platform",
+    "docker:build:api": "docker build . -t ghcr.io/dean-s-list/islanddao-platform",
+    "docker:push:api": "docker push ghcr.io/dean-s-list/islanddao-platform",
+    "docker:run:api": "docker run -it -p 8000:3000 ghcr.io/dean-s-list/islanddao-platform",
     "e2e:all": "nx run-many --target=e2e --all",
     "format:all": "nx format:write --all",
     "lint:all": "nx run-many --target=lint --all",

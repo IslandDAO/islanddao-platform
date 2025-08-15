@@ -1,4 +1,4 @@
-import { AdminUpdateCommunityInput, Community } from '@deanslist-platform/sdk'
+import { AdminUpdateCommunityInput, Community } from '@islanddao-platform/sdk'
 import { Button, Group } from '@mantine/core'
 import { formFieldText, UiForm, UiFormField } from '@pubkey-ui/core'
 

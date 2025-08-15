@@ -1,5 +1,5 @@
-import { Review } from '@deanslist-platform/sdk'
-import { CoreUiButton } from '@deanslist-platform/web-core-ui'
+import { Review } from '@islanddao-platform/sdk'
+import { CoreUiButton } from '@islanddao-platform/web-core-ui'
 import { useNavigate } from 'react-router-dom'
 
 export function ProjectUiUserReviewButton({

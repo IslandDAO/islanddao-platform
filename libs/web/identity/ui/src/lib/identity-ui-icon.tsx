@@ -1,4 +1,4 @@
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 import { IconBrandDiscordFilled, IconCurrencySolana, IconQuestionMark } from '@tabler/icons-react'
 
 export function IdentityUiIcon({ provider, size }: { provider: IdentityProvider; size?: number }) {

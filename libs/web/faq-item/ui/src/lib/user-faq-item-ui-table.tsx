@@ -1,4 +1,4 @@
-import { FaqItem } from '@deanslist-platform/sdk'
+import { FaqItem } from '@islanddao-platform/sdk'
 import { ScrollArea } from '@mantine/core'
 import { DataTable } from 'mantine-datatable'
 

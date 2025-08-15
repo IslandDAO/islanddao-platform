@@ -1,5 +1,5 @@
 import { Stack, type StackProps } from '@mantine/core'
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 import { IdentityUiLoginButton } from './identity-ui-login-button'
 
 export function IdentityUiLoginButtons({

@@ -1,4 +1,4 @@
-import { Project } from '@deanslist-platform/sdk'
+import { Project } from '@islanddao-platform/sdk'
 import { Group, Text } from '@mantine/core'
 import { IconUsers } from '@tabler/icons-react'
 

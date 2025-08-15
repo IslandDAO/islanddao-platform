@@ -1,11 +1,11 @@
-import { ApiAuthService } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthService } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiCoreService,
   BaseContext,
   ellipsify,
   getRequestDetails,
   slugifyUsername,
-} from '@deanslist-platform/api-core-data-access'
+} from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { IdentityProvider, UserRole, UserStatus } from '@prisma/client'
 import { ApiSolanaIdentityService } from './api-solana-identity.service'

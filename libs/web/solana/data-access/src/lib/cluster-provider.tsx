@@ -44,8 +44,8 @@ export const defaultClusters: Cluster[] = [
   },
 ]
 
-const clusterAtom = atomWithStorage<Cluster>('deanslist-platform-cluster', defaultClusters[0])
-const clustersAtom = atomWithStorage<Cluster[]>('deanslist-platform-clusters', defaultClusters)
+const clusterAtom = atomWithStorage<Cluster>('islanddao-platform-cluster', defaultClusters[0])
+const clustersAtom = atomWithStorage<Cluster[]>('islanddao-platform-clusters', defaultClusters)
 
 const activeClustersAtom = atom<Cluster[]>((get) => {
   const clusters = get(clustersAtom)

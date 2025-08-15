@@ -1,4 +1,4 @@
-import { ManagerFindManyReviewByProjectInput } from '@deanslist-platform/sdk'
+import { ManagerFindManyReviewByProjectInput } from '@islanddao-platform/sdk'
 import {
   adminUpdateProjectStatusActive,
   getAliceCookie,

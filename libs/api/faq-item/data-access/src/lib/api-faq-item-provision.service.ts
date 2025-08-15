@@ -1,5 +1,5 @@
-import { COMMUNITIES_PROVISIONED } from '@deanslist-platform/api-community-data-access'
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { COMMUNITIES_PROVISIONED } from '@islanddao-platform/api-community-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { ApiFaqItemDataService } from './api-faq-item-data.service'

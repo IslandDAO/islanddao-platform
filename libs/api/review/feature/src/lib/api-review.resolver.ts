@@ -1,5 +1,5 @@
-import { getRatingAverage, getRatingsFromReview } from '@deanslist-platform/api-project-data-access'
-import { ApiReviewService, Review } from '@deanslist-platform/api-review-data-access'
+import { getRatingAverage, getRatingsFromReview } from '@islanddao-platform/api-project-data-access'
+import { ApiReviewService, Review } from '@islanddao-platform/api-review-data-access'
 import { Float, Int, Parent, ResolveField, Resolver } from '@nestjs/graphql'
 
 @Resolver(() => Review)

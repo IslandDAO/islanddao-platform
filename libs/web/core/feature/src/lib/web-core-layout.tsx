@@ -1,11 +1,11 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import {
   CoreUiHeader,
   CoreUiHeaderProfile,
   CoreUiLayout,
   CoreUiNavbar,
   CoreUiNavbarLink,
-} from '@deanslist-platform/web-core-ui'
+} from '@islanddao-platform/web-core-ui'
 import { Group } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
 import { UiLoader } from '@pubkey-ui/core'

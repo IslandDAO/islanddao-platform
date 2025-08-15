@@ -1,4 +1,4 @@
-import { IdentityProvider, sdk } from '@deanslist-platform/sdk'
+import { IdentityProvider, sdk } from '@islanddao-platform/sdk'
 import { toastError } from '@pubkey-ui/core'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { createContext, ReactNode, useContext } from 'react'

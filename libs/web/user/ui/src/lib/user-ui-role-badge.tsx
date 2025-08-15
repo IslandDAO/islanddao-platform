@@ -1,4 +1,4 @@
-import { UserRole } from '@deanslist-platform/sdk'
+import { UserRole } from '@islanddao-platform/sdk'
 import { Badge } from '@mantine/core'
 
 export const USER_ROLE_COLORS: Record<UserRole, string> = {

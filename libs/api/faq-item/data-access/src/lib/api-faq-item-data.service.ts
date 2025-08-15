@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { Prisma } from '@prisma/client'
 import { FaqItem } from './entity/faq-item.entity'

@@ -1,5 +1,5 @@
-import { User } from '@deanslist-platform/sdk'
-import { IdentityUiAvatarGroup } from '@deanslist-platform/web-identity-ui'
+import { User } from '@islanddao-platform/sdk'
+import { IdentityUiAvatarGroup } from '@islanddao-platform/web-identity-ui'
 import { ActionIcon, Group, ScrollArea } from '@mantine/core'
 import { IconPencil, IconTrash, IconUser } from '@tabler/icons-react'
 import { DataTable, DataTableProps } from 'mantine-datatable'

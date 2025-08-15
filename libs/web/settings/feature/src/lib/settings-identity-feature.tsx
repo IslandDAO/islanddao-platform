@@ -1,6 +1,6 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
-import { useUserFindManyIdentity } from '@deanslist-platform/web-identity-data-access'
-import { IdentityUiGroupList } from '@deanslist-platform/web-identity-ui'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
+import { useUserFindManyIdentity } from '@islanddao-platform/web-identity-data-access'
+import { IdentityUiGroupList } from '@islanddao-platform/web-identity-ui'
 import { UiLoader, UiStack } from '@pubkey-ui/core'
 
 export function SettingsIdentityFeature() {

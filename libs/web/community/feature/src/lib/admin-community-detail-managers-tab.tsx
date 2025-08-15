@@ -3,8 +3,8 @@ import {
   useAdminGetCommunityManagers,
   useAdminRemoveCommunityManager,
   useAdminToggleCommunityAdmin,
-} from '@deanslist-platform/web-community-data-access'
-import { CommunityUiSettingsManagers } from '@deanslist-platform/web-community-ui'
+} from '@islanddao-platform/web-community-data-access'
+import { CommunityUiSettingsManagers } from '@islanddao-platform/web-community-ui'
 
 export function AdminCommunityDetailManagersTab({ communityId }: { communityId: string }) {
   const { items, query } = useAdminGetCommunityManagers({ communityId })

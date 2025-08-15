@@ -1,4 +1,4 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { ActionIcon, ActionIconProps, Tooltip } from '@mantine/core'
 import { modals } from '@mantine/modals'
 import { IconBug } from '@tabler/icons-react'

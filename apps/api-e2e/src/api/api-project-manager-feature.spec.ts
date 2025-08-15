@@ -1,11 +1,11 @@
-import { addDays, setDateToStartOfDay } from '@deanslist-platform/api-core-data-access'
+import { addDays, setDateToStartOfDay } from '@islanddao-platform/api-core-data-access'
 import {
   ManagerCreateProjectInput,
   ManagerFindManyProjectInput,
   ManagerUpdateProjectInput,
   Project,
   ProjectStatus,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { getAliceCookie, managerCreateCommunity, managerCreateProject, sdk, uniqueId } from '../support'
 
 describe('api-project-feature', () => {

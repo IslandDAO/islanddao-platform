@@ -1,6 +1,6 @@
 import { ActionIcon, Badge, Button, Group, Loader, Table, Text } from '@mantine/core'
-import { ellipsify } from '@deanslist-platform/sdk'
-import { useGetSignatures } from '@deanslist-platform/web-solana-data-access'
+import { ellipsify } from '@islanddao-platform/sdk'
+import { useGetSignatures } from '@islanddao-platform/web-solana-data-access'
 import { UiError, UiInfo, UiStack, UiTime } from '@pubkey-ui/core'
 import { PublicKey } from '@solana/web3.js'
 import { IconRefresh } from '@tabler/icons-react'

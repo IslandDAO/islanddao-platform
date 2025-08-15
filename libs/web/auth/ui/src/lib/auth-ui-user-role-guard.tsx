@@ -1,5 +1,5 @@
-import { UserRole } from '@deanslist-platform/sdk'
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { UserRole } from '@islanddao-platform/sdk'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { UiError } from '@pubkey-ui/core'
 import { Outlet } from 'react-router-dom'
 import { AuthUiFull } from './auth-ui-full'

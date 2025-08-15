@@ -1,5 +1,5 @@
-import { ApiCoreDataAccessModule } from '@deanslist-platform/api-core-data-access'
-import { ApiCommunityDataAccessModule } from '@deanslist-platform/api-community-data-access'
+import { ApiCoreDataAccessModule } from '@islanddao-platform/api-core-data-access'
+import { ApiCommunityDataAccessModule } from '@islanddao-platform/api-community-data-access'
 import { Module } from '@nestjs/common'
 import { ApiDiscordBotCommandService } from './api-discord-bot-command.service'
 import { ApiDiscordBotService } from './api-discord-bot.service'

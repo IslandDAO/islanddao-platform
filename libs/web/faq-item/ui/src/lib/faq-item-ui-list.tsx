@@ -1,5 +1,5 @@
-import { FaqItem } from '@deanslist-platform/sdk'
-import { CoreUiContent } from '@deanslist-platform/web-core-ui'
+import { FaqItem } from '@islanddao-platform/sdk'
+import { CoreUiContent } from '@islanddao-platform/web-core-ui'
 import { Accordion } from '@mantine/core'
 
 export function FaqItemUiList({ items }: { items: FaqItem[] }) {

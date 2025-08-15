@@ -1,4 +1,4 @@
-import { FaqItemAdminUpdateInput, sdk } from '@deanslist-platform/sdk'
+import { FaqItemAdminUpdateInput, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 

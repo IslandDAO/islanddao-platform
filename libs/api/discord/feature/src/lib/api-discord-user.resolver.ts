@@ -1,5 +1,5 @@
-import { ApiAuthGraphQLUserGuard } from '@deanslist-platform/api-auth-data-access'
-import { ApiDiscordService, DiscordChannel, DiscordServer } from '@deanslist-platform/api-discord-data-access'
+import { ApiAuthGraphQLUserGuard } from '@islanddao-platform/api-auth-data-access'
+import { ApiDiscordService, DiscordChannel, DiscordServer } from '@islanddao-platform/api-discord-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Query, Resolver } from '@nestjs/graphql'
 

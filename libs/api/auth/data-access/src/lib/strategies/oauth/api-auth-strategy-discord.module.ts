@@ -1,5 +1,5 @@
 import { type DynamicModule, Logger, Module } from '@nestjs/common'
-import { ApiCoreDataAccessModule } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreDataAccessModule } from '@islanddao-platform/api-core-data-access'
 import { ApiAuthStrategyService } from '../api-auth-strategy.service'
 import { ApiAuthStrategyDiscord } from './api-auth-strategy-discord'
 

@@ -1,4 +1,4 @@
-import { ApiProjectDataAccessModule } from '@deanslist-platform/api-project-data-access'
+import { ApiProjectDataAccessModule } from '@islanddao-platform/api-project-data-access'
 import { Module } from '@nestjs/common'
 import { ApiProjectAdminResolver } from './api-project-admin.resolver'
 import { ApiProjectManagerResolver } from './api-project-manager-resolver'

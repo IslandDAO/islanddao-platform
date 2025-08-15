@@ -1,5 +1,5 @@
-import { ApiAuthGraphQLUserGuard, CtxUserId } from '@deanslist-platform/api-auth-data-access'
-import { BaseContext } from '@deanslist-platform/api-core-data-access'
+import { ApiAuthGraphQLUserGuard, CtxUserId } from '@islanddao-platform/api-auth-data-access'
+import { BaseContext } from '@islanddao-platform/api-core-data-access'
 import {
   ApiIdentityService,
   Identity,
@@ -8,7 +8,7 @@ import {
   RequestIdentityChallengeInput,
   UserFindManyIdentityInput,
   VerifyIdentityChallengeInput,
-} from '@deanslist-platform/api-identity-data-access'
+} from '@islanddao-platform/api-identity-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Context, Mutation, Query, Resolver } from '@nestjs/graphql'
 

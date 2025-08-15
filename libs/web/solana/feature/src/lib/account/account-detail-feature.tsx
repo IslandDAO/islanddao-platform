@@ -1,12 +1,12 @@
 import { Group } from '@mantine/core'
-import { ellipsify } from '@deanslist-platform/sdk'
+import { ellipsify } from '@islanddao-platform/sdk'
 import {
   SolanaUiAccountBalance,
   SolanaUiAccountButtons,
   SolanaUiAccountTokens,
   SolanaUiAccountTransactions,
   SolanaUiExplorerLink,
-} from '@deanslist-platform/web-solana-ui'
+} from '@islanddao-platform/web-solana-ui'
 import { UiPage, UiStack } from '@pubkey-ui/core'
 import { PublicKey } from '@solana/web3.js'
 import { useMemo } from 'react'

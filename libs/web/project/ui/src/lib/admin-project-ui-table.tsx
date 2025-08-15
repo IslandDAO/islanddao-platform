@@ -1,5 +1,5 @@
-import { Project } from '@deanslist-platform/sdk'
-import { CommunityUiItem } from '@deanslist-platform/web-community-ui'
+import { Project } from '@islanddao-platform/sdk'
+import { CommunityUiItem } from '@islanddao-platform/web-community-ui'
 import { ActionIcon, Group, ScrollArea } from '@mantine/core'
 import { IconEye, IconPencil, IconTrash } from '@tabler/icons-react'
 import { DataTable, DataTableProps } from 'mantine-datatable'

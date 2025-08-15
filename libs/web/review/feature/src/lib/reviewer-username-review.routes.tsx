@@ -1,5 +1,5 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
-import { UiRouteParams } from '@deanslist-platform/web-core-ui'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
+import { UiRouteParams } from '@islanddao-platform/web-core-ui'
 import { Navigate, useRoutes } from 'react-router-dom'
 import { ReviewerUsernameReviewListFeature } from './reviewer-username-review-list.feature'
 

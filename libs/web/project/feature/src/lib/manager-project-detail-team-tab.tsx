@@ -1,4 +1,4 @@
-import { useManagerFindOneProject } from '@deanslist-platform/web-project-data-access'
+import { useManagerFindOneProject } from '@islanddao-platform/web-project-data-access'
 import { UiError, UiLoader } from '@pubkey-ui/core'
 import { ProjectUiTeamManager } from './project-ui-team-manager'
 

@@ -1,5 +1,5 @@
 import { Text, Tooltip } from '@mantine/core'
-import { Identity } from '@deanslist-platform/sdk'
+import { Identity } from '@islanddao-platform/sdk'
 import { IconDiscountCheckFilled } from '@tabler/icons-react'
 
 export function IdentityUiVerified({ item }: { item: Identity }) {

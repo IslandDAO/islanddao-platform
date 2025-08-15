@@ -1,4 +1,4 @@
-import { AdminUpdateRatingInput, sdk } from '@deanslist-platform/sdk'
+import { AdminUpdateRatingInput, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 
 export function useAdminFindOneRating({ ratingId }: { ratingId: string }) {

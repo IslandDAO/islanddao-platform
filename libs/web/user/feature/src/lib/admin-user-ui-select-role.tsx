@@ -1,4 +1,4 @@
-import { getEnumOptions, UserRole } from '@deanslist-platform/sdk'
+import { getEnumOptions, UserRole } from '@islanddao-platform/sdk'
 import { UiSelectEnum } from '@pubkey-ui/core'
 
 export function AdminUserUiSelectRole({

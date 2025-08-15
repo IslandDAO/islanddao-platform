@@ -1,4 +1,4 @@
-import { SolanaUiClusterModalAdd, SolanaUiClusterUiTable } from '@deanslist-platform/web-solana-ui'
+import { SolanaUiClusterModalAdd, SolanaUiClusterUiTable } from '@islanddao-platform/web-solana-ui'
 import { UiPage } from '@pubkey-ui/core'
 
 export default function ClusterFeature() {

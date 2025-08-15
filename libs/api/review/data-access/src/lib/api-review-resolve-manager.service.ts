@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { ReviewerFindManyReviewByProjectInput } from './dto/reviewer-find-many-review-by-project-input'
 import { getManagerReviewByProjectWhereInput } from './helpers/get-manager-review-by-project-where-input'

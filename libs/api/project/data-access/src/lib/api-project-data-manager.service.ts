@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/api-user-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Injectable } from '@nestjs/common'
 import { ApiProjectDataService } from './api-project-data.service'
 import { ApiProjectMemberDataService } from './api-project-member-data.service'

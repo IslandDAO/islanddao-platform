@@ -1,4 +1,4 @@
-import { ProjectStatus } from '@deanslist-platform/sdk'
+import { ProjectStatus } from '@islanddao-platform/sdk'
 import { Badge, BadgeProps, MantineColor } from '@mantine/core'
 
 export const PROJECT_STATUS_COLORS: Record<ProjectStatus, MantineColor> = {

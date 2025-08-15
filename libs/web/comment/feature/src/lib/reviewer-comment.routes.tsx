@@ -1,4 +1,4 @@
-import { Review } from '@deanslist-platform/sdk'
+import { Review } from '@islanddao-platform/sdk'
 import { ReactNode } from 'react'
 import { useRoutes } from 'react-router-dom'
 import { ReviewerCommentListFeature } from './reviewer-comment-list.feature'

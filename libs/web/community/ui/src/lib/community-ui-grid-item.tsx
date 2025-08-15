@@ -1,5 +1,5 @@
-import { Community } from '@deanslist-platform/sdk'
-import { CoreUiCard, CoreUiDivider } from '@deanslist-platform/web-core-ui'
+import { Community } from '@islanddao-platform/sdk'
+import { CoreUiCard, CoreUiDivider } from '@islanddao-platform/web-core-ui'
 import { Group, Text } from '@mantine/core'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
 import { IconCube, IconUsers } from '@tabler/icons-react'

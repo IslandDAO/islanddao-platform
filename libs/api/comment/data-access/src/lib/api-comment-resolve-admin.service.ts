@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { AdminFindManyCommentInput } from './dto/admin-find-many-comment.input'
 import { AdminUpdateCommentInput } from './dto/admin-update-comment.input'

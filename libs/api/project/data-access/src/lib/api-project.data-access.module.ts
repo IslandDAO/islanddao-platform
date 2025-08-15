@@ -1,5 +1,5 @@
-import { ApiCommunityDataAccessModule } from '@deanslist-platform/api-community-data-access'
-import { ApiCoreDataAccessModule } from '@deanslist-platform/api-core-data-access'
+import { ApiCommunityDataAccessModule } from '@islanddao-platform/api-community-data-access'
+import { ApiCoreDataAccessModule } from '@islanddao-platform/api-core-data-access'
 import { Module } from '@nestjs/common'
 import { ApiProjectDataAdminService } from './api-project-data-admin.service'
 import { ApiProjectDataManagerService } from './api-project-data-manager.service'

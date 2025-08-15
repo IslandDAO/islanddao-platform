@@ -1,5 +1,5 @@
 import { Button, Group, Text } from '@mantine/core'
-import { useCluster } from '@deanslist-platform/web-solana-data-access'
+import { useCluster } from '@islanddao-platform/web-solana-data-access'
 import { UiWarning } from '@pubkey-ui/core'
 import { useConnection } from '@solana/wallet-adapter-react'
 import { IconNetworkOff } from '@tabler/icons-react'

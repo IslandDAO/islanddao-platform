@@ -1,6 +1,6 @@
-import { useAdminFindManyComment } from '@deanslist-platform/web-comment-data-access'
-import { AdminCommentUiTable } from '@deanslist-platform/web-comment-ui'
-import { CoreUiDebugModal, CoreUiSearchField } from '@deanslist-platform/web-core-ui'
+import { useAdminFindManyComment } from '@islanddao-platform/web-comment-data-access'
+import { AdminCommentUiTable } from '@islanddao-platform/web-comment-ui'
+import { CoreUiDebugModal, CoreUiSearchField } from '@islanddao-platform/web-core-ui'
 import { Group } from '@mantine/core'
 import { UiInfo, UiLoader, UiStack } from '@pubkey-ui/core'
 

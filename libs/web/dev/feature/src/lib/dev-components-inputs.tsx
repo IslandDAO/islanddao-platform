@@ -1,4 +1,4 @@
-import { CoreUiCurrencyInput, CoreUiInput, CoreUiDateInput } from '@deanslist-platform/web-core-ui'
+import { CoreUiCurrencyInput, CoreUiInput, CoreUiDateInput } from '@islanddao-platform/web-core-ui'
 import { UiCard, UiStack } from '@pubkey-ui/core'
 import { useState } from 'react'
 

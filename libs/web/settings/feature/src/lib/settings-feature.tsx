@@ -1,5 +1,5 @@
-import { useUserProfile } from '@deanslist-platform/web-user-data-access'
-import { UserUiProfile, UserUiToggleDeveloperMode } from '@deanslist-platform/web-user-ui'
+import { useUserProfile } from '@islanddao-platform/web-user-data-access'
+import { UserUiProfile, UserUiToggleDeveloperMode } from '@islanddao-platform/web-user-ui'
 import { Button, Text } from '@mantine/core'
 import { UiContainer, UiLoader, UiStack, UiWarning } from '@pubkey-ui/core'
 import { Link } from 'react-router-dom'

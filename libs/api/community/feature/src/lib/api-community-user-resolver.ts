@@ -1,10 +1,10 @@
-import { ApiAuthGraphQLUserGuard } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLUserGuard } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiCommunityService,
   Community,
   CommunityPaging,
   UserFindManyCommunityInput,
-} from '@deanslist-platform/api-community-data-access'
+} from '@islanddao-platform/api-community-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Query, Resolver } from '@nestjs/graphql'
 

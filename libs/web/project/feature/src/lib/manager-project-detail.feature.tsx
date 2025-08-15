@@ -1,18 +1,18 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import {
   CoreUiBackLink,
   CoreUiButton,
   CoreUiCard,
   CoreUiDebugModal,
   dividerColor,
-} from '@deanslist-platform/web-core-ui'
-import { useManagerFindOneProject } from '@deanslist-platform/web-project-data-access'
+} from '@islanddao-platform/web-core-ui'
+import { useManagerFindOneProject } from '@islanddao-platform/web-project-data-access'
 import {
   ProjectUiDates,
   ProjectUiItem,
   ProjectUiStatusBadge,
   ProjectUiStatusSelect,
-} from '@deanslist-platform/web-project-ui'
+} from '@islanddao-platform/web-project-ui'
 import { Group } from '@mantine/core'
 import { UiContainer, UiError, UiGroup, UiLoader, UiStack, UiTabRoute, UiTabRoutes } from '@pubkey-ui/core'
 import { IconChairDirector, IconShield } from '@tabler/icons-react'

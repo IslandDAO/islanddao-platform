@@ -1,4 +1,4 @@
-import { ApiCoreService, hashPassword, slugifyUsername } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, hashPassword, slugifyUsername } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { Prisma, User as PrismaUser } from '@prisma/client'
 import { AdminUpdateUserInput } from './dto/admin-update-user.input'

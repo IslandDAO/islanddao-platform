@@ -1,5 +1,5 @@
-import { ApiCommunityService, createCommunityEmbed } from '@deanslist-platform/api-community-data-access'
-import { ApiCoreService, createIdentityProviderCache } from '@deanslist-platform/api-core-data-access'
+import { ApiCommunityService, createCommunityEmbed } from '@islanddao-platform/api-community-data-access'
+import { ApiCoreService, createIdentityProviderCache } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { IdentityProvider } from '@prisma/client'
 import { ChatInputCommandInteraction, SlashCommandBuilder } from 'discord.js'

@@ -1,4 +1,4 @@
-import { IdentityProviderCacheItem } from '@deanslist-platform/api-core-data-access'
+import { IdentityProviderCacheItem } from '@islanddao-platform/api-core-data-access'
 import { Identity, IdentityProvider, Project, User } from '@prisma/client'
 import { APIEmbed, APIEmbedField } from 'discord.js'
 

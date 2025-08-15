@@ -1,5 +1,5 @@
 import { AvatarProps, Group, GroupProps, Stack, Text } from '@mantine/core'
-import { FaqItem } from '@deanslist-platform/sdk'
+import { FaqItem } from '@islanddao-platform/sdk'
 import { UiAnchor, UiAnchorProps } from '@pubkey-ui/core'
 import { FaqItemUiAvatar } from './faq-item-ui-avatar'
 

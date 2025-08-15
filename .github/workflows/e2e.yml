@@ -8,7 +8,7 @@ on:
 
 env:
   API_URL: http://localhost:3000/api
-  DATABASE_URL: postgresql://deanslist-platform:deanslist-platform@localhost:5432/deanslist-platform?schema=public
+  DATABASE_URL: postgresql://islanddao-platform:islanddao-platform@localhost:5432/islanddao-platform?schema=public
   DATABASE_PROVISION: true
   DATABASE_RESET: true
   HOST: 127.0.0.1
@@ -23,9 +23,9 @@ jobs:
       postgres:
         image: postgres:15-alpine
         env:
-          POSTGRES_USER: deanslist-platform
-          POSTGRES_PASSWORD: deanslist-platform
-          POSTGRES_DB: deanslist-platform
+          POSTGRES_USER: islanddao-platform
+          POSTGRES_PASSWORD: islanddao-platform
+          POSTGRES_DB: islanddao-platform
         ports: ['5432:5432']
         options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
       redis:

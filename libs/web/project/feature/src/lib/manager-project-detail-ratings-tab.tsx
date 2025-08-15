@@ -1,6 +1,6 @@
-import { ProjectStatus } from '@deanslist-platform/sdk'
-import { ManagerCommentFeature } from '@deanslist-platform/web-comment-feature'
-import { useManagerFindOneProject } from '@deanslist-platform/web-project-data-access'
+import { ProjectStatus } from '@islanddao-platform/sdk'
+import { ManagerCommentFeature } from '@islanddao-platform/web-comment-feature'
+import { useManagerFindOneProject } from '@islanddao-platform/web-project-data-access'
 import { UiError, UiLoader, UiStack, UiWarning } from '@pubkey-ui/core'
 
 export function ManagerProjectDetailRatingsTab({ projectId }: { projectId: string }) {

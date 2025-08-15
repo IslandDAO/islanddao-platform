@@ -1,5 +1,5 @@
-import { Comment } from '@deanslist-platform/sdk'
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { Comment } from '@islanddao-platform/sdk'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { ActionIcon, Tooltip } from '@mantine/core'
 import { IconTrash } from '@tabler/icons-react'
 

@@ -1,5 +1,5 @@
-import { DiscordServer } from '@deanslist-platform/sdk'
-import { useAdminLeaveDiscordServer } from '@deanslist-platform/web-discord-data-access'
+import { DiscordServer } from '@islanddao-platform/sdk'
+import { useAdminLeaveDiscordServer } from '@islanddao-platform/web-discord-data-access'
 import { Button } from '@mantine/core'
 import { modals } from '@mantine/modals'
 

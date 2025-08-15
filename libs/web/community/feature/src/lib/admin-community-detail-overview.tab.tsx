@@ -1,4 +1,4 @@
-import { useAdminFindOneCommunity } from '@deanslist-platform/web-community-data-access'
+import { useAdminFindOneCommunity } from '@islanddao-platform/web-community-data-access'
 import { UiCard, UiDebug, UiError, UiLoader } from '@pubkey-ui/core'
 
 export function AdminCommunityDetailOverviewTab({ communityId }: { communityId: string }) {

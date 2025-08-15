@@ -1,4 +1,4 @@
-import { RegisterInput, UserRole, UserStatus } from '@deanslist-platform/sdk'
+import { RegisterInput, UserRole, UserStatus } from '@islanddao-platform/sdk'
 import { sdk, uniqueId } from '../support'
 
 describe('api-auth-feature', () => {

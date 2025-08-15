@@ -1,4 +1,4 @@
-import { CoreUiButton } from '@deanslist-platform/web-core-ui'
+import { CoreUiButton } from '@islanddao-platform/web-core-ui'
 import { UiCard, UiStack } from '@pubkey-ui/core'
 import { IconPlus, IconTrash } from '@tabler/icons-react'
 

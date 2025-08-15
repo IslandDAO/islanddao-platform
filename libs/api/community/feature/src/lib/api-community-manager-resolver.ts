@@ -1,4 +1,4 @@
-import { ApiAuthGraphQLUserGuard, CtxUser, CtxUserId } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLUserGuard, CtxUser, CtxUserId } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiCommunityService,
   Community,
@@ -7,8 +7,8 @@ import {
   ManagerCreateCommunityInput,
   ManagerFindManyCommunityInput,
   ManagerUpdateCommunityInput,
-} from '@deanslist-platform/api-community-data-access'
-import { User } from '@deanslist-platform/api-user-data-access'
+} from '@islanddao-platform/api-community-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

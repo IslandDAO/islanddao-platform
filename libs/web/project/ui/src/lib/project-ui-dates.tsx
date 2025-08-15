@@ -1,4 +1,4 @@
-import { formatDate, Project } from '@deanslist-platform/sdk'
+import { formatDate, Project } from '@islanddao-platform/sdk'
 import { Group, Text } from '@mantine/core'
 
 export function ProjectUiDates({ project }: { project: Project }) {

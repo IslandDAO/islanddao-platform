@@ -1,5 +1,5 @@
-import { AdminUpdateProjectInput, ManagerUpdateProjectInput, Project } from '@deanslist-platform/sdk'
-import { ProjectUiMemberManager, ProjectUiToggleReviewsOpen } from '@deanslist-platform/web-project-ui'
+import { AdminUpdateProjectInput, ManagerUpdateProjectInput, Project } from '@islanddao-platform/sdk'
+import { ProjectUiMemberManager, ProjectUiToggleReviewsOpen } from '@islanddao-platform/web-project-ui'
 import { SimpleGrid, Text } from '@mantine/core'
 import { UiInfo, UiStack } from '@pubkey-ui/core'
 

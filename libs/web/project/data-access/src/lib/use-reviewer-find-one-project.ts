@@ -1,4 +1,4 @@
-import { sdk } from '@deanslist-platform/sdk'
+import { sdk } from '@islanddao-platform/sdk'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 
 export function useReviewerFindOneProject({ projectId }: { projectId: string }) {

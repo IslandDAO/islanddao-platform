@@ -3,7 +3,7 @@ import {
   ReviewerCreateCommentInput,
   ReviewerFindManyCommentInput,
   ReviewerUpdateCommentInput,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import {
   getAliceCookie,
   managerCreateActiveProject,

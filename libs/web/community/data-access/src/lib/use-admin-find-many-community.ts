@@ -1,4 +1,4 @@
-import { AdminFindManyCommunityInput, Community, sdk } from '@deanslist-platform/sdk'
+import { AdminFindManyCommunityInput, Community, sdk } from '@islanddao-platform/sdk'
 import { toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'

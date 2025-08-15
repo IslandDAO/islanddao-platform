@@ -1,5 +1,5 @@
-import { Review } from '@deanslist-platform/sdk'
-import { CoreUiRating } from '@deanslist-platform/web-core-ui'
+import { Review } from '@islanddao-platform/sdk'
+import { CoreUiRating } from '@islanddao-platform/web-core-ui'
 import { ActionIcon, Anchor, Group, ScrollArea, Text } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { IconPencil, IconTrash } from '@tabler/icons-react'

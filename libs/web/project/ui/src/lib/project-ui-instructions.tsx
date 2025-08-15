@@ -1,4 +1,4 @@
-import { Project } from '@deanslist-platform/sdk'
+import { Project } from '@islanddao-platform/sdk'
 import { Text, TypographyStylesProvider } from '@mantine/core'
 import Markdown from 'react-markdown'
 

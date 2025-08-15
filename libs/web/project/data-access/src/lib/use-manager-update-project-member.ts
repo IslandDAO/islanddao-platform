@@ -1,4 +1,4 @@
-import { ManagerUpdateProjectMemberInput, sdk } from '@deanslist-platform/sdk'
+import { ManagerUpdateProjectMemberInput, sdk } from '@islanddao-platform/sdk'
 
 export function useManagerUpdateProjectMember() {
   return async (projectMemberId: string, input: ManagerUpdateProjectMemberInput) =>

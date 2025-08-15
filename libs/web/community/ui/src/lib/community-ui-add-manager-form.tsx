@@ -1,5 +1,5 @@
-import { User } from '@deanslist-platform/sdk'
-import { UserUiItem, UserUiSearch } from '@deanslist-platform/web-user-ui'
+import { User } from '@islanddao-platform/sdk'
+import { UserUiItem, UserUiSearch } from '@islanddao-platform/web-user-ui'
 import { Button } from '@mantine/core'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
 import { useState } from 'react'

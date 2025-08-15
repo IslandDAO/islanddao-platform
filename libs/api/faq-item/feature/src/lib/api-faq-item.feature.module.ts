@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common'
-import { ApiFaqItemDataAccessModule } from '@deanslist-platform/api-faq-item-data-access'
+import { ApiFaqItemDataAccessModule } from '@islanddao-platform/api-faq-item-data-access'
 import { ApiFaqItemResolver } from './api-faq-item.resolver'
 import { ApiFaqItemAdminResolver } from './api-faq-item-admin.resolver'
 import { ApiFaqItemUserResolver } from './api-faq-item-user.resolver'

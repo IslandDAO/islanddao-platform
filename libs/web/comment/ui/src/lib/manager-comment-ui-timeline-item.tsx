@@ -1,5 +1,5 @@
-import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput } from '@deanslist-platform/sdk'
-import { CoreUiDivider, CoreUiRating } from '@deanslist-platform/web-core-ui'
+import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput } from '@islanddao-platform/sdk'
+import { CoreUiDivider, CoreUiRating } from '@islanddao-platform/web-core-ui'
 import { ActionIcon, Button, Group } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { IconArrowsMaximize, IconArrowsMinimize, IconExternalLink } from '@tabler/icons-react'

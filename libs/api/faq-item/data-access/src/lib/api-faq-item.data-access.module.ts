@@ -1,4 +1,4 @@
-import { ApiCoreDataAccessModule } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreDataAccessModule } from '@islanddao-platform/api-core-data-access'
 import { Module } from '@nestjs/common'
 import { ApiFaqItemDataAdminService } from './api-faq-item-data-admin.service'
 import { ApiFaqItemDataUserService } from './api-faq-item-data-user.service'

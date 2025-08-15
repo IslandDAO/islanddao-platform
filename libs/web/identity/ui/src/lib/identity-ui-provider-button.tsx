@@ -1,4 +1,4 @@
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 import { Button, ButtonProps } from '@mantine/core'
 import { getIdentityProviderColor } from './get-identity-provider-color'
 import { IdentityUiIcon } from './identity-ui-icon'

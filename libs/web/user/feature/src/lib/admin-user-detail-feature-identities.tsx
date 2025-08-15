@@ -1,7 +1,7 @@
 import { Button, Group } from '@mantine/core'
 import { modals } from '@mantine/modals'
-import { useAdminFindManyIdentity } from '@deanslist-platform/web-identity-data-access'
-import { AdminIdentityUiTable, AuthUiIdentityCreateForm } from '@deanslist-platform/web-identity-ui'
+import { useAdminFindManyIdentity } from '@islanddao-platform/web-identity-data-access'
+import { AdminIdentityUiTable, AuthUiIdentityCreateForm } from '@islanddao-platform/web-identity-ui'
 import { UiInfo, UiLoader, UiStack } from '@pubkey-ui/core'
 
 export function AdminUserDetailFeatureIdentities({ userId }: { userId: string }) {

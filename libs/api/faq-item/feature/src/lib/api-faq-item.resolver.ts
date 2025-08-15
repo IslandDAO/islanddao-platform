@@ -1,6 +1,6 @@
 import { Resolver } from '@nestjs/graphql'
-import { ApiFaqItemService } from '@deanslist-platform/api-faq-item-data-access'
-import { FaqItem } from '@deanslist-platform/api-faq-item-data-access'
+import { ApiFaqItemService } from '@islanddao-platform/api-faq-item-data-access'
+import { FaqItem } from '@islanddao-platform/api-faq-item-data-access'
 
 @Resolver(() => FaqItem)
 export class ApiFaqItemResolver {

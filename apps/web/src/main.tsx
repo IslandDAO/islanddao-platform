@@ -1,4 +1,4 @@
-import { WebCoreFeature } from '@deanslist-platform/web-core-feature'
+import { WebCoreFeature } from '@islanddao-platform/web-core-feature'
 import { StrictMode } from 'react'
 import * as ReactDOM from 'react-dom/client'
 

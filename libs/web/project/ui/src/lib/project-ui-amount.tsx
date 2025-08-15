@@ -1,4 +1,4 @@
-import { formatUsd } from '@deanslist-platform/sdk'
+import { formatUsd } from '@islanddao-platform/sdk'
 import { Group, Text } from '@mantine/core'
 
 export function ProjectUiAmount({ amount, label }: { amount?: number | null; label: string }) {

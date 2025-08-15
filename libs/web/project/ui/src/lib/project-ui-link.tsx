@@ -1,4 +1,4 @@
-import { Project } from '@deanslist-platform/sdk'
+import { Project } from '@islanddao-platform/sdk'
 import { AvatarProps, Group, Text } from '@mantine/core'
 import { UiAnchor, UiAnchorProps } from '@pubkey-ui/core'
 import { ProjectUiAvatar } from './project-ui-avatar'

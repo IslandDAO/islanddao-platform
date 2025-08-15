@@ -1,4 +1,4 @@
-import { ProjectMember } from '@deanslist-platform/api-project-data-access'
+import { ProjectMember } from '@islanddao-platform/api-project-data-access'
 import { Field, HideField, ObjectType } from '@nestjs/graphql'
 import { Comment, Rating } from '@prisma/client'
 

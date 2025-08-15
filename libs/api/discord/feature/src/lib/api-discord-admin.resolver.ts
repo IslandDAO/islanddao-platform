@@ -1,4 +1,4 @@
-import { ApiAuthGraphQLAdminGuard, CtxUserId } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLAdminGuard, CtxUserId } from '@islanddao-platform/api-auth-data-access'
 import {
   AdminUpdateDiscordServerInput,
   ApiDiscordService,
@@ -6,7 +6,7 @@ import {
   DiscordChannel,
   DiscordRole,
   DiscordServer,
-} from '@deanslist-platform/api-discord-data-access'
+} from '@islanddao-platform/api-discord-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

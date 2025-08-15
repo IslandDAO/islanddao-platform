@@ -1,5 +1,5 @@
-import { Project } from '@deanslist-platform/sdk'
-import { CoreUiCard, CoreUiDivider } from '@deanslist-platform/web-core-ui'
+import { Project } from '@islanddao-platform/sdk'
+import { CoreUiCard, CoreUiDivider } from '@islanddao-platform/web-core-ui'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
 import { IconExternalLink } from '@tabler/icons-react'
 import React from 'react'

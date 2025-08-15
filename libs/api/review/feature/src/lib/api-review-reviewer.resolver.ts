@@ -1,10 +1,10 @@
-import { ApiAuthGraphQLUserGuard, CtxUserId } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLUserGuard, CtxUserId } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiReviewService,
   Review,
   ReviewerFindManyReviewByProjectInput,
   ReviewerFindManyReviewByUsernameInput,
-} from '@deanslist-platform/api-review-data-access'
+} from '@islanddao-platform/api-review-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

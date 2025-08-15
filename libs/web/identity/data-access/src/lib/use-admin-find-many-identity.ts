@@ -4,7 +4,7 @@ import {
   Identity,
   IdentityProvider,
   sdk,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { modals } from '@mantine/modals'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'

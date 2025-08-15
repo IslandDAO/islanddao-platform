@@ -1,5 +1,5 @@
-import { Project } from '@deanslist-platform/sdk'
-import { CoreUiDateLabel } from '@deanslist-platform/web-core-ui'
+import { Project } from '@islanddao-platform/sdk'
+import { CoreUiDateLabel } from '@islanddao-platform/web-core-ui'
 import { Text } from '@mantine/core'
 import { UiInfoTable } from '@pubkey-ui/core'
 

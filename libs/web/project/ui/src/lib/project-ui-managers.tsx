@@ -1,5 +1,5 @@
-import { Project, User } from '@deanslist-platform/sdk'
-import { UserUiLink } from '@deanslist-platform/web-user-ui'
+import { Project, User } from '@islanddao-platform/sdk'
+import { UserUiLink } from '@islanddao-platform/web-user-ui'
 import { Group } from '@mantine/core'
 
 export function ProjectUiManagers({ project }: { project: Project }) {

@@ -1,4 +1,4 @@
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 import type { ButtonProps } from '@mantine/core'
 import { IdentityUiProviderButton } from './identity-ui-provider-button'
 import { IdentityUiSolanaLoginButton } from './identity-ui-solana-login-button'

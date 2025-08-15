@@ -1,5 +1,5 @@
 import { Button, Group } from '@mantine/core'
-import { AdminUpdateUserInput, getEnumOptions, User, UserRole, UserStatus } from '@deanslist-platform/sdk'
+import { AdminUpdateUserInput, getEnumOptions, User, UserRole, UserStatus } from '@islanddao-platform/sdk'
 import { formFieldCheckbox, formFieldSelect, formFieldText, UiForm, UiFormField } from '@pubkey-ui/core'
 
 export function AdminUiUpdateUserForm({

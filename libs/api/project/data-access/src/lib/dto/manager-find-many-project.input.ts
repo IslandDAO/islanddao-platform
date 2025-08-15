@@ -1,4 +1,4 @@
-import { OrderDirection, PagingInput } from '@deanslist-platform/api-core-data-access'
+import { OrderDirection, PagingInput } from '@islanddao-platform/api-core-data-access'
 import { Field, InputType } from '@nestjs/graphql'
 import { ProjectOrderBy } from '../entity/project-order-by.enum'
 import { ProjectStatus } from '../entity/project-status.enum'

@@ -1,4 +1,4 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { Navigate, useRoutes } from 'react-router-dom'
 import { ManagerCommunityDetailFeature } from './manager-community-detail-feature'
 import { ManagerCommunityListFeature } from './manager-community-list.feature'

@@ -1,14 +1,14 @@
-import { getEnumOptions, projectOrderByOptions, ProjectStatus } from '@deanslist-platform/sdk'
-import { useManagerFindManyCommunity } from '@deanslist-platform/web-community-data-access'
+import { getEnumOptions, projectOrderByOptions, ProjectStatus } from '@islanddao-platform/sdk'
+import { useManagerFindManyCommunity } from '@islanddao-platform/web-community-data-access'
 import {
   CoreUiCustomSelect,
   CoreUiDebugModal,
   CoreUiSearchField,
   modalStyles,
   pinkGradient,
-} from '@deanslist-platform/web-core-ui'
-import { useManagerFindManyProject } from '@deanslist-platform/web-project-data-access'
-import { ProjectUiEmptyState, ProjectUiGrid } from '@deanslist-platform/web-project-ui'
+} from '@islanddao-platform/web-core-ui'
+import { useManagerFindManyProject } from '@islanddao-platform/web-project-data-access'
+import { ProjectUiEmptyState, ProjectUiGrid } from '@islanddao-platform/web-project-ui'
 import { Button, Group, Switch } from '@mantine/core'
 import { modals } from '@mantine/modals'
 import { UiError, UiGroup, UiLoader, UiPage, UiStack } from '@pubkey-ui/core'

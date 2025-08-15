@@ -5,11 +5,11 @@ import {
   UserFindManyUserInput,
   UserRole,
   UserStatus,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { getAliceCookie, getBobCookie, sdk, uniqueId } from '../support'
 
 function avatarUrl(name) {
-  return `https://source.boringavatars.com/pixel/120/deanslist-platform-${name}`
+  return `https://source.boringavatars.com/pixel/120/islanddao-platform-${name}`
 }
 
 describe('api-user-feature', () => {

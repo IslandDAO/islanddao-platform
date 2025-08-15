@@ -1,4 +1,4 @@
-import { Community } from '@deanslist-platform/api-community-data-access'
+import { Community } from '@islanddao-platform/api-community-data-access'
 import { Field, Int, ObjectType } from '@nestjs/graphql'
 import { ProjectMember } from './project-member.entity'
 import { ProjectStatus } from './project-status.enum'

@@ -1,5 +1,5 @@
 {
-  "name": "@deanslist-platform/sdk",
+  "name": "@islanddao-platform/sdk",
   "version": "0.0.1",
   "type": "commonjs",
   "peerDependencies": {

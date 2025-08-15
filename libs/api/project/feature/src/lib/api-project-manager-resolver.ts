@@ -1,4 +1,4 @@
-import { ApiAuthGraphQLUserGuard, CtxUser, CtxUserId } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLUserGuard, CtxUser, CtxUserId } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiProjectService,
   ManagerCreateProjectInput,
@@ -7,8 +7,8 @@ import {
   Project,
   ProjectPaging,
   ProjectStatus,
-} from '@deanslist-platform/api-project-data-access'
-import { User } from '@deanslist-platform/api-user-data-access'
+} from '@islanddao-platform/api-project-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

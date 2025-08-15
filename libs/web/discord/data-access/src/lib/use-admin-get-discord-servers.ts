@@ -1,4 +1,4 @@
-import { DiscordServer, sdk } from '@deanslist-platform/sdk'
+import { DiscordServer, sdk } from '@islanddao-platform/sdk'
 import { useQuery } from '@tanstack/react-query'
 
 export function useAdminGetDiscordServers() {

@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common'
-import { ApiAuthDataAccessModule } from '@deanslist-platform/api-auth-data-access'
-import { ApiCoreDataAccessModule } from '@deanslist-platform/api-core-data-access'
+import { ApiAuthDataAccessModule } from '@islanddao-platform/api-auth-data-access'
+import { ApiCoreDataAccessModule } from '@islanddao-platform/api-core-data-access'
 import { ApiAdminIdentityService } from './api-admin-identity.service'
 import { ApiUserIdentityService } from './api-user-identity.service'
 import { ApiIdentityService } from './api-identity.service'

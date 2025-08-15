@@ -5,8 +5,8 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_DB: deanslist-platform
-      POSTGRES_USER: deanslist-platform
-      POSTGRES_PASSWORD: deanslist-platform
+      POSTGRES_DB: islanddao-platform
+      POSTGRES_USER: islanddao-platform
+      POSTGRES_PASSWORD: islanddao-platform
     volumes:
       - ./tmp/postgres:/var/lib/postgresql/data

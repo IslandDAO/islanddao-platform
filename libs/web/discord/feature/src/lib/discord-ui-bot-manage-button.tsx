@@ -1,4 +1,4 @@
-import { DiscordBot } from '@deanslist-platform/sdk'
+import { DiscordBot } from '@islanddao-platform/sdk'
 import { Button } from '@mantine/core'
 
 export function DiscordUiBotManageButton({ item }: { item: DiscordBot }) {

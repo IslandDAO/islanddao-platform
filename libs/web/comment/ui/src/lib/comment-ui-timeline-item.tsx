@@ -1,5 +1,5 @@
-import type { Comment, ReviewerCreateCommentInput } from '@deanslist-platform/sdk'
-import { CoreUiDivider } from '@deanslist-platform/web-core-ui'
+import type { Comment, ReviewerCreateCommentInput } from '@islanddao-platform/sdk'
+import { CoreUiDivider } from '@islanddao-platform/web-core-ui'
 import { Button, Group } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { IconArrowsMaximize, IconArrowsMinimize, IconMessageCircle2Filled } from '@tabler/icons-react'

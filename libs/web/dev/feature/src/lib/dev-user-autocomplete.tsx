@@ -1,6 +1,6 @@
 import { SimpleGrid, Text } from '@mantine/core'
-import type { User } from '@deanslist-platform/sdk'
-import { AdminUserUiSearch, UserUiAvatar, UserUiItem, UserUiSearch } from '@deanslist-platform/web-user-ui'
+import type { User } from '@islanddao-platform/sdk'
+import { AdminUserUiSearch, UserUiAvatar, UserUiItem, UserUiSearch } from '@islanddao-platform/web-user-ui'
 import { UiCard, UiDebug, UiInfo, UiStack } from '@pubkey-ui/core'
 import { useState } from 'react'
 

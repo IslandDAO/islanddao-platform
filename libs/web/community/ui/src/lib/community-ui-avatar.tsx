@@ -1,4 +1,4 @@
-import { Community } from '@deanslist-platform/sdk'
+import { Community } from '@islanddao-platform/sdk'
 import { UiAvatar, UiAvatarProps } from '@pubkey-ui/core'
 
 export type CommunityUiAvatarProps = UiAvatarProps & {

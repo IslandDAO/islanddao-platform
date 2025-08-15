@@ -1,4 +1,4 @@
-import { getEnumOptions, ProjectMember, ProjectRole } from '@deanslist-platform/sdk'
+import { getEnumOptions, ProjectMember, ProjectRole } from '@islanddao-platform/sdk'
 import { Select, SelectProps } from '@mantine/core'
 
 export function ProjectMemberUiUpdateRole({

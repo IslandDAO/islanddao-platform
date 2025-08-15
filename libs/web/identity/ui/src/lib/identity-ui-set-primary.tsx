@@ -1,4 +1,4 @@
-import { Identity, IdentityProvider } from '@deanslist-platform/sdk'
+import { Identity, IdentityProvider } from '@islanddao-platform/sdk'
 import { ActionIcon, Tooltip } from '@mantine/core'
 import { IconStar, IconStarFilled } from '@tabler/icons-react'
 

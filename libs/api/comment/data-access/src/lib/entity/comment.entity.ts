@@ -1,6 +1,6 @@
-import { Rating } from '@deanslist-platform/api-rating-data-access'
-import { Review } from '@deanslist-platform/api-review-data-access'
-import { User } from '@deanslist-platform/api-user-data-access'
+import { Rating } from '@islanddao-platform/api-rating-data-access'
+import { Review } from '@islanddao-platform/api-review-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Field, ObjectType } from '@nestjs/graphql'
 import { CommentCategory } from './comment-category.enum'
 

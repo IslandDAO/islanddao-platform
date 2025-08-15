@@ -1,10 +1,10 @@
-import { UserRole, UserStatus } from '@deanslist-platform/sdk'
+import { UserRole, UserStatus } from '@islanddao-platform/sdk'
 import {
   AuthUiOnboardedGuard,
   AuthUiRouteGuard,
   AuthUiUserRoleGuard,
   AuthUiUserStatusGuard,
-} from '@deanslist-platform/web-auth-ui'
+} from '@islanddao-platform/web-auth-ui'
 import { UiLoader } from '@pubkey-ui/core'
 
 import { Navigate, Outlet, RouteObject, useRoutes } from 'react-router-dom'

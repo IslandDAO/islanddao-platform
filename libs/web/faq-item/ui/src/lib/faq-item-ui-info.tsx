@@ -1,4 +1,4 @@
-import { FaqItem } from '@deanslist-platform/sdk'
+import { FaqItem } from '@islanddao-platform/sdk'
 import { UiInfoItems, UiInfoTable, UiTime } from '@pubkey-ui/core'
 
 export function FaqItemUiInfo({ faqItem }: { faqItem?: FaqItem }) {

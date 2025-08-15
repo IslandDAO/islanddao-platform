@@ -1,4 +1,4 @@
-import { AdminFindManyCommentInput, AdminUpdateCommentInput, Comment } from '@deanslist-platform/sdk'
+import { AdminFindManyCommentInput, AdminUpdateCommentInput, Comment } from '@islanddao-platform/sdk'
 import {
   getAliceCookie,
   getBobCookie,

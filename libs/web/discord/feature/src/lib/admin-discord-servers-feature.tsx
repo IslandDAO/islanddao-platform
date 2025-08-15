@@ -1,5 +1,5 @@
-import { useAdminGetDiscordServers } from '@deanslist-platform/web-discord-data-access'
-import { DiscordUiServerItem } from '@deanslist-platform/web-discord-ui'
+import { useAdminGetDiscordServers } from '@islanddao-platform/web-discord-data-access'
+import { DiscordUiServerItem } from '@islanddao-platform/web-discord-ui'
 import { Accordion } from '@mantine/core'
 import { UiLoader, UiStack } from '@pubkey-ui/core'
 import { AdminDiscordServersCard } from './admin-discord-servers-card'

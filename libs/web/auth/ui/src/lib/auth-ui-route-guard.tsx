@@ -1,5 +1,5 @@
 import { Alert } from '@mantine/core'
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { ReactElement } from 'react'
 import { Navigate, Outlet, useLocation } from 'react-router-dom'
 

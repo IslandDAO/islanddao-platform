@@ -1,4 +1,4 @@
-import { CoreUiCard, CoreUiContent, CoreUiDebug, CoreUiEditor, useCoreUiEditor } from '@deanslist-platform/web-core-ui'
+import { CoreUiCard, CoreUiContent, CoreUiDebug, CoreUiEditor, useCoreUiEditor } from '@islanddao-platform/web-core-ui'
 import { Button, SimpleGrid } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { useState } from 'react'

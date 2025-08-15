@@ -6,7 +6,7 @@ import {
   ProjectMember,
   ProjectMessage,
   ProjectRole,
-} from '@deanslist-platform/api-project-data-access'
+} from '@islanddao-platform/api-project-data-access'
 import { Int, Parent, ResolveField, Resolver } from '@nestjs/graphql'
 import { Project as PrismaProject, ProjectMember as PrismaProjectMember } from '@prisma/client'
 

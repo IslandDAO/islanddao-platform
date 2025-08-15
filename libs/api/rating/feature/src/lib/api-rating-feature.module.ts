@@ -1,4 +1,4 @@
-import { ApiRatingDataAccessModule } from '@deanslist-platform/api-rating-data-access'
+import { ApiRatingDataAccessModule } from '@islanddao-platform/api-rating-data-access'
 import { Module } from '@nestjs/common'
 import { ApiRatingAdminResolver } from './api-rating-admin.resolver'
 import { ApiRatingManagerResolver } from './api-rating-manager.resolver'

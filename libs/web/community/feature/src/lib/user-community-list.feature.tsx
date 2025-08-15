@@ -1,6 +1,6 @@
-import { useUserFindManyCommunity } from '@deanslist-platform/web-community-data-access'
-import { CommunityUiGrid } from '@deanslist-platform/web-community-ui'
-import { CoreUiDebugModal, CoreUiSearchField } from '@deanslist-platform/web-core-ui'
+import { useUserFindManyCommunity } from '@islanddao-platform/web-community-data-access'
+import { CommunityUiGrid } from '@islanddao-platform/web-community-ui'
+import { CoreUiDebugModal, CoreUiSearchField } from '@islanddao-platform/web-core-ui'
 import { Group } from '@mantine/core'
 import { UiInfo, UiLoader, UiPage } from '@pubkey-ui/core'
 

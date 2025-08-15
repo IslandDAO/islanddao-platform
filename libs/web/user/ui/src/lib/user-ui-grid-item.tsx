@@ -1,5 +1,5 @@
-import type { User } from '@deanslist-platform/sdk'
-import { CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
+import type { User } from '@islanddao-platform/sdk'
+import { CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
 import { Paper } from '@mantine/core'
 import { UiGroup } from '@pubkey-ui/core'
 import { Link } from 'react-router-dom'

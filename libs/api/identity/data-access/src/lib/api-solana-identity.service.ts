@@ -1,4 +1,4 @@
-import { ApiCoreService, BaseContext, getRequestDetails } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, BaseContext, getRequestDetails } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { IdentityProvider } from '@prisma/client'
 import { verifySignature } from '@pubkeyapp/solana-verify-wallet'

@@ -1,5 +1,5 @@
-import { Identity } from '@deanslist-platform/api-identity-data-access'
-import { User, UserRole } from '@deanslist-platform/api-user-data-access'
+import { Identity } from '@islanddao-platform/api-identity-data-access'
+import { User, UserRole } from '@islanddao-platform/api-user-data-access'
 import { Parent, ResolveField, Resolver } from '@nestjs/graphql'
 import { ProjectMember, ProjectRole } from '@prisma/client'
 

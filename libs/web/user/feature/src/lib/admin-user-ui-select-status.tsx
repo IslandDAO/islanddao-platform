@@ -1,4 +1,4 @@
-import { getEnumOptions, UserStatus } from '@deanslist-platform/sdk'
+import { getEnumOptions, UserStatus } from '@islanddao-platform/sdk'
 import { UiSelectEnum } from '@pubkey-ui/core'
 
 export function AdminUserUiSelectStatus({

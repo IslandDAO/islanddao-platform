@@ -1,5 +1,5 @@
 import { Loader, Text, TextProps } from '@mantine/core'
-import { useGetTokenBalance } from '@deanslist-platform/web-solana-data-access'
+import { useGetTokenBalance } from '@islanddao-platform/web-solana-data-access'
 import { PublicKey } from '@solana/web3.js'
 
 export function SolanaUiAccountTokenBalance({ address, ...props }: { address: PublicKey } & TextProps) {

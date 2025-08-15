@@ -1,12 +1,12 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import {
   CoreUiBackLink,
   CoreUiButton,
   CoreUiCard,
   CoreUiDebugModal,
   CoreUiDivider,
-} from '@deanslist-platform/web-core-ui'
-import { useReviewerFindOneProject } from '@deanslist-platform/web-project-data-access'
+} from '@islanddao-platform/web-core-ui'
+import { useReviewerFindOneProject } from '@islanddao-platform/web-project-data-access'
 import {
   ProjectUiAmount,
   ProjectUiDates,
@@ -17,8 +17,8 @@ import {
   ProjectUiParticipants,
   ProjectUiSocials,
   ProjectUiStatusBadge,
-} from '@deanslist-platform/web-project-ui'
-import { ReviewerProjectReviewFeature } from '@deanslist-platform/web-review-feature'
+} from '@islanddao-platform/web-project-ui'
+import { ReviewerProjectReviewFeature } from '@islanddao-platform/web-review-feature'
 import { Button, Collapse, Group } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
 import { UiContainer, UiError, UiGroup, UiLoader, UiStack } from '@pubkey-ui/core'

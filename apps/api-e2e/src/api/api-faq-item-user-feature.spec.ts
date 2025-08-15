@@ -1,4 +1,4 @@
-import { FaqItemGroup, FaqItemUserFindManyInput } from '@deanslist-platform/sdk'
+import { FaqItemGroup, FaqItemUserFindManyInput } from '@islanddao-platform/sdk'
 import { getAliceCookie, sdk, uniqueId } from '../support'
 
 describe('api-faq-item-feature', () => {

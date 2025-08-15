@@ -1,4 +1,4 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { Text } from '@mantine/core'
 import { UiAnchor, UiStack } from '@pubkey-ui/core'
 

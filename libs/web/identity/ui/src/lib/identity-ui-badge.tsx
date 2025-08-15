@@ -1,5 +1,5 @@
 import { Group, Text } from '@mantine/core'
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 import { IdentityUiIcon } from './identity-ui-icon'
 
 export function IdentityUiBadge({ provider }: { provider: IdentityProvider }) {

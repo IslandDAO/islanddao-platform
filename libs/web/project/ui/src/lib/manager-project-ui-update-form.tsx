@@ -1,4 +1,4 @@
-import { ManagerUpdateProjectInput, Project, ProjectStatus } from '@deanslist-platform/sdk'
+import { ManagerUpdateProjectInput, Project, ProjectStatus } from '@islanddao-platform/sdk'
 import {
   cardGradient,
   CoreUiButton,
@@ -7,7 +7,7 @@ import {
   CoreUiDivider,
   CoreUiInput,
   pinkGradient,
-} from '@deanslist-platform/web-core-ui'
+} from '@islanddao-platform/web-core-ui'
 import { Group, SimpleGrid, Textarea } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { UiStack } from '@pubkey-ui/core'

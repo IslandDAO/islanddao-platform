@@ -1,4 +1,4 @@
-import { ellipsify, Identity, IdentityProvider } from '@deanslist-platform/sdk'
+import { ellipsify, Identity, IdentityProvider } from '@islanddao-platform/sdk'
 import { Avatar, Box, Image, Tooltip } from '@mantine/core'
 
 export function IdentityUiAvatar({ item, withTooltip = false }: { item: Identity; withTooltip?: boolean }) {

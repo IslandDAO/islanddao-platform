@@ -1,4 +1,4 @@
-# Deanslist Platform
+# IslandDAO Platform
 
 ## Getting Started
 
@@ -8,7 +8,7 @@
 - PNPM
 - Docker
 
-> [!TIP]
+> [!TIP]  
 > If you don't have PNPM installed, you can install it using `corepack`:
 >
 > ```sh
@@ -21,8 +21,8 @@
 Clone the repo and install dependencies:
 
 ```shell
-git clone git@github.com:pubkeyapp/deanslist-platform.git
-cd deanslist-platform
+git clone git@github.com:pubkeyapp/islanddao-platform.git
+cd islanddao-platform
 pnpm install
 ```
 
@@ -104,7 +104,7 @@ pnpm nx g prisma-model company
 Output:
 
 ```shell
-> NX Generating @deanslist-platform/tools:prisma-model
+> NX Generating @islanddao-platform/tools:prisma-model
 
 UPDATE prisma/schema.prisma
 ```
@@ -122,7 +122,7 @@ pnpm nx g api-feature company
 Output:
 
 ```shell
-> NX Generating @deanslist-platform/tools:api-feature
+> NX Generating @islanddao-platform/tools:api-feature
 
 CREATE libs/api/company/data-access/...
 CREATE libs/api/company/feature/...
@@ -144,7 +144,7 @@ pnpm nx g web-feature company
 Output:
 
 ```shell
-> NX Generating @deanslist-platform/tools:web-feature
+> NX Generating @islanddao-platform/tools:web-feature
 
 CREATE libs/web/company/data-access/...
 CREATE libs/web/company/feature/...

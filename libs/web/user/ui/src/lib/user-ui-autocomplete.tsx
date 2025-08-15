@@ -1,4 +1,4 @@
-import type { User } from '@deanslist-platform/sdk'
+import type { User } from '@islanddao-platform/sdk'
 import { Autocomplete, type AutocompleteProps, CloseIcon, Loader } from '@mantine/core'
 import { IconUserSearch } from '@tabler/icons-react'
 

@@ -1,6 +1,6 @@
-import { Community, ManagerCreateProjectInput } from '@deanslist-platform/sdk'
-import { useManagerFindManyProject } from '@deanslist-platform/web-project-data-access'
-import { ManagerProjectUiCreateForm } from '@deanslist-platform/web-project-ui'
+import { Community, ManagerCreateProjectInput } from '@islanddao-platform/sdk'
+import { useManagerFindManyProject } from '@islanddao-platform/web-project-data-access'
+import { ManagerProjectUiCreateForm } from '@islanddao-platform/web-project-ui'
 import { toastError } from '@pubkey-ui/core'
 import { useNavigate } from 'react-router-dom'
 

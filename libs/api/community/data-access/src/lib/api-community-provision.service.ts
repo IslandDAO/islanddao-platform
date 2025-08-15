@@ -1,5 +1,5 @@
-import { ApiCoreService, slugifyId } from '@deanslist-platform/api-core-data-access'
-import { USERS_PROVISIONED } from '@deanslist-platform/api-user-data-access'
+import { ApiCoreService, slugifyId } from '@islanddao-platform/api-core-data-access'
+import { USERS_PROVISIONED } from '@islanddao-platform/api-user-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { Prisma } from '@prisma/client'

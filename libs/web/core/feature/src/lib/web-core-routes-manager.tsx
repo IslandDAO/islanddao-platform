@@ -1,6 +1,6 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
-import { ManagerCommunityFeature } from '@deanslist-platform/web-community-feature'
-import { ManagerProjectFeature } from '@deanslist-platform/web-project-feature'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
+import { ManagerCommunityFeature } from '@islanddao-platform/web-community-feature'
+import { ManagerProjectFeature } from '@islanddao-platform/web-project-feature'
 import { Navigate, RouteObject, useRoutes } from 'react-router-dom'
 
 export default function () {

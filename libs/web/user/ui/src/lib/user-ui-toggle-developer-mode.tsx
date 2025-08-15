@@ -1,4 +1,4 @@
-import { User, UserUpdateUserInput } from '@deanslist-platform/sdk'
+import { User, UserUpdateUserInput } from '@islanddao-platform/sdk'
 import { Switch } from '@mantine/core'
 import { toastInfo } from '@pubkey-ui/core'
 

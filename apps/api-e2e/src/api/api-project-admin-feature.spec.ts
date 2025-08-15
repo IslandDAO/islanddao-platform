@@ -1,4 +1,4 @@
-import { AdminFindManyProjectInput, AdminUpdateProjectInput, Project } from '@deanslist-platform/sdk'
+import { AdminFindManyProjectInput, AdminUpdateProjectInput, Project } from '@islanddao-platform/sdk'
 import { getAliceCookie, getBobCookie, managerCreateCommunityWithProject, sdk, uniqueId } from '../support'
 
 describe('api-project-feature', () => {

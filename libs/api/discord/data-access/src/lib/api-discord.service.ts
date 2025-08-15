@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { ApiDiscordBotService } from './api-discord-bot.service'
 import { ApiDiscordChannelService } from './api-discord-channel.service'

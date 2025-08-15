@@ -1,4 +1,4 @@
-import { type LoginInput, RegisterInput } from '@deanslist-platform/sdk'
+import { type LoginInput, RegisterInput } from '@islanddao-platform/sdk'
 import { formFieldPassword, formFieldText, UiForm, UiFormField } from '@pubkey-ui/core'
 import { ReactNode, useState } from 'react'
 

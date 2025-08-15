@@ -1,4 +1,4 @@
-import { ManagerFindManyCommentInput, sdk } from '@deanslist-platform/sdk'
+import { ManagerFindManyCommentInput, sdk } from '@islanddao-platform/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 

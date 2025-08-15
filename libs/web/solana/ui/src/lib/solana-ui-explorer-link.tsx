@@ -1,5 +1,5 @@
 import { Anchor, AnchorProps, Group } from '@mantine/core'
-import { useCluster } from '@deanslist-platform/web-solana-data-access'
+import { useCluster } from '@islanddao-platform/web-solana-data-access'
 import { UiCopy } from '@pubkey-ui/core'
 
 export function SolanaUiExplorerLink({

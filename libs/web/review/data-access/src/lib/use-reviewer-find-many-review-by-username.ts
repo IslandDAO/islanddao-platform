@@ -1,4 +1,4 @@
-import { Review, ReviewerFindManyReviewByUsernameInput, sdk } from '@deanslist-platform/sdk'
+import { Review, ReviewerFindManyReviewByUsernameInput, sdk } from '@islanddao-platform/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 

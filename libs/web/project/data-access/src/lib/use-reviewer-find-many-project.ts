@@ -4,7 +4,7 @@ import {
   ProjectStatus,
   ReviewerFindManyProjectInput,
   sdk,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 

@@ -1,10 +1,10 @@
-import { BaseContext } from '@deanslist-platform/api-core-data-access'
+import { BaseContext } from '@islanddao-platform/api-core-data-access'
 import {
   ApiIdentityService,
   IdentityChallenge,
   RequestIdentityChallengeInput,
   VerifyIdentityChallengeInput,
-} from '@deanslist-platform/api-identity-data-access'
+} from '@islanddao-platform/api-identity-data-access'
 import { Args, Context, Mutation, Query, Resolver } from '@nestjs/graphql'
 
 @Resolver()

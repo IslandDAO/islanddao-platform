@@ -1,5 +1,5 @@
-import { Comment, ReviewerCreateCommentInput } from '@deanslist-platform/sdk'
-import { CoreUiDivider } from '@deanslist-platform/web-core-ui'
+import { Comment, ReviewerCreateCommentInput } from '@islanddao-platform/sdk'
+import { CoreUiDivider } from '@islanddao-platform/web-core-ui'
 import { UiStack } from '@pubkey-ui/core'
 import React from 'react'
 import { CommentUiTimelineItem } from './comment-ui-timeline-item'

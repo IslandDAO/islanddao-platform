@@ -1,4 +1,4 @@
-import { AdminFindManyCommunityInput, AdminUpdateCommunityInput, Community } from '@deanslist-platform/sdk'
+import { AdminFindManyCommunityInput, AdminUpdateCommunityInput, Community } from '@islanddao-platform/sdk'
 import { getAliceCookie, getBobCookie, managerCreateCommunity, sdk, uniqueId } from '../support'
 
 describe('api-community-feature', () => {

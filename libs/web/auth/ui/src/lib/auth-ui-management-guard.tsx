@@ -1,4 +1,4 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { Navigate, Outlet } from 'react-router-dom'
 
 export function AuthUiManagementGuard({ redirectTo }: { redirectTo: string }) {

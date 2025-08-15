@@ -1,5 +1,5 @@
 import { Group } from '@mantine/core'
-import { useCluster } from '@deanslist-platform/web-solana-data-access'
+import { useCluster } from '@islanddao-platform/web-solana-data-access'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { PublicKey } from '@solana/web3.js'
 import { SolanaUiAccountModalAirdrop } from './solana-ui-account-modal-airdrop'

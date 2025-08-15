@@ -1,4 +1,4 @@
-import { Review } from '@deanslist-platform/sdk'
+import { Review } from '@islanddao-platform/sdk'
 import { UiAvatar, UiAvatarProps } from '@pubkey-ui/core'
 
 export type ReviewUiAvatarProps = UiAvatarProps & {

@@ -1,5 +1,5 @@
-import { ProjectMember, ProjectRole } from '@deanslist-platform/sdk'
-import { UserUiItem } from '@deanslist-platform/web-user-ui'
+import { ProjectMember, ProjectRole } from '@islanddao-platform/sdk'
+import { UserUiItem } from '@islanddao-platform/web-user-ui'
 import { ActionIcon, Group, ScrollArea } from '@mantine/core'
 import { UiDebugModal } from '@pubkey-ui/core'
 import { IconTrash } from '@tabler/icons-react'

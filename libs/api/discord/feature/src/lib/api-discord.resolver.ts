@@ -1,4 +1,4 @@
-import { ApiDiscordService } from '@deanslist-platform/api-discord-data-access'
+import { ApiDiscordService } from '@islanddao-platform/api-discord-data-access'
 import { Resolver } from '@nestjs/graphql'
 
 @Resolver()

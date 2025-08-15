@@ -1,5 +1,5 @@
-import type { Review } from '@deanslist-platform/sdk'
-import { CoreUiDebugModal } from '@deanslist-platform/web-core-ui'
+import type { Review } from '@islanddao-platform/sdk'
+import { CoreUiDebugModal } from '@islanddao-platform/web-core-ui'
 import { Paper } from '@mantine/core'
 import { UiGroup } from '@pubkey-ui/core'
 import { ReviewUiItem } from './review-ui-item'

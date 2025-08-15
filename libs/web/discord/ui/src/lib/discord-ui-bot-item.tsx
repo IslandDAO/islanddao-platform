@@ -1,4 +1,4 @@
-import { DiscordBot } from '@deanslist-platform/sdk'
+import { DiscordBot } from '@islanddao-platform/sdk'
 import { AvatarProps, Group, type GroupProps, Stack, Text } from '@mantine/core'
 import { UiAnchor, type UiAnchorProps } from '@pubkey-ui/core'
 import { IconBrandDiscord } from '@tabler/icons-react'

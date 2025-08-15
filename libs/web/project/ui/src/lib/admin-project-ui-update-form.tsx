@@ -1,5 +1,5 @@
-import { AdminUpdateProjectInput, getEnumOptions, Project, ProjectStatus } from '@deanslist-platform/sdk'
-import { CoreUiCurrencyInput, CoreUiInput } from '@deanslist-platform/web-core-ui'
+import { AdminUpdateProjectInput, getEnumOptions, Project, ProjectStatus } from '@islanddao-platform/sdk'
+import { CoreUiCurrencyInput, CoreUiInput } from '@islanddao-platform/web-core-ui'
 import { Button, Fieldset, Group, Select, Textarea, TextInput } from '@mantine/core'
 import { DateInput } from '@mantine/dates'
 import { useForm } from '@mantine/form'

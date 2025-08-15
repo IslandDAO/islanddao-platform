@@ -1,4 +1,4 @@
-import { ApiCoreService, beforeToday, setDateToStartOfDay, slugifyId } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, beforeToday, setDateToStartOfDay, slugifyId } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { Cron, CronExpression } from '@nestjs/schedule'

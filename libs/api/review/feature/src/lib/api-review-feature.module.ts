@@ -1,4 +1,4 @@
-import { ApiReviewDataAccessModule } from '@deanslist-platform/api-review-data-access'
+import { ApiReviewDataAccessModule } from '@islanddao-platform/api-review-data-access'
 import { Module } from '@nestjs/common'
 import { ApiReviewAdminResolver } from './api-review-admin.resolver'
 import { ApiReviewManagerResolver } from './api-review-manager.resolver'

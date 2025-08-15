@@ -1,4 +1,4 @@
-import { setDateToEndOfDay } from '@deanslist-platform/api-core-data-access'
+import { setDateToEndOfDay } from '@islanddao-platform/api-core-data-access'
 
 export function getRemainingDays(date: Date): number {
   const difference = setDateToEndOfDay(new Date(date)).getTime() - new Date().getTime()

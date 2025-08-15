@@ -1,4 +1,4 @@
-import { ApiCoreService, AppConfig } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, AppConfig } from '@islanddao-platform/api-core-data-access'
 import { Float, Query, Resolver } from '@nestjs/graphql'
 
 @Resolver()

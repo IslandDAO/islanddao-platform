@@ -1,4 +1,4 @@
-import type { Comment } from '@deanslist-platform/sdk'
+import type { Comment } from '@islanddao-platform/sdk'
 import { UiInfoTable } from '@pubkey-ui/core'
 import React from 'react'
 

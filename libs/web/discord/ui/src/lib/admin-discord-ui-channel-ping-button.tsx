@@ -1,4 +1,4 @@
-import { useAdminPingDiscordChannel } from '@deanslist-platform/web-discord-data-access'
+import { useAdminPingDiscordChannel } from '@islanddao-platform/web-discord-data-access'
 import { Button, ButtonProps, Tooltip } from '@mantine/core'
 import { IconHandFinger } from '@tabler/icons-react'
 

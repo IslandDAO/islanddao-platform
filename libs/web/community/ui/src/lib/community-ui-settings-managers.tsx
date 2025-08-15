@@ -1,5 +1,5 @@
-import type { CommunityManager } from '@deanslist-platform/sdk'
-import { CoreUiCard } from '@deanslist-platform/web-core-ui'
+import type { CommunityManager } from '@islanddao-platform/sdk'
+import { CoreUiCard } from '@islanddao-platform/web-core-ui'
 import { UiError, UiLoader, UiStack } from '@pubkey-ui/core'
 import { CommunityUiAddManagerForm } from './community-ui-add-manager-form'
 import { CommunityUiManagerListItem } from './community-ui-manager-list-item'

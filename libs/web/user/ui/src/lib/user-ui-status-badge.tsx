@@ -1,4 +1,4 @@
-import { UserStatus } from '@deanslist-platform/sdk'
+import { UserStatus } from '@islanddao-platform/sdk'
 import { Badge } from '@mantine/core'
 
 export const USER_STATUS_COLORS: Record<UserStatus, string> = {

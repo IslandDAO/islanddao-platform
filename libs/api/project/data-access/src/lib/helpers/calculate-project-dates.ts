@@ -1,4 +1,4 @@
-import { addDays, beforeToday, setDateToStartOfDay } from '@deanslist-platform/api-core-data-access'
+import { addDays, beforeToday, setDateToStartOfDay } from '@islanddao-platform/api-core-data-access'
 import { Project } from '@prisma/client'
 
 export function calculateProjectDates({

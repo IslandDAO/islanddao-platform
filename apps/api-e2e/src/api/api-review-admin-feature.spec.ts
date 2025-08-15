@@ -1,4 +1,4 @@
-import { AdminFindManyReviewInput } from '@deanslist-platform/sdk'
+import { AdminFindManyReviewInput } from '@islanddao-platform/sdk'
 import {
   getAliceCookie,
   getBobCookie,

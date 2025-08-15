@@ -4,9 +4,9 @@ import {
   CoreUiPage,
   CoreUiPageLimit,
   CoreUiSearchField,
-} from '@deanslist-platform/web-core-ui'
-import { useAdminFindManyProject } from '@deanslist-platform/web-project-data-access'
-import { AdminProjectUiTable } from '@deanslist-platform/web-project-ui'
+} from '@islanddao-platform/web-core-ui'
+import { useAdminFindManyProject } from '@islanddao-platform/web-project-data-access'
+import { AdminProjectUiTable } from '@islanddao-platform/web-project-ui'
 import { Group } from '@mantine/core'
 import { UiInfo, UiLoader } from '@pubkey-ui/core'
 

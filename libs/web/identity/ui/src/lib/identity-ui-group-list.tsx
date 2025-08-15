@@ -1,4 +1,4 @@
-import { Identity, IdentityProvider } from '@deanslist-platform/sdk'
+import { Identity, IdentityProvider } from '@islanddao-platform/sdk'
 import { Group, Text } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { IdentityUiIcon } from './identity-ui-icon'

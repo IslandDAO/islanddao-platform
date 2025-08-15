@@ -1,11 +1,11 @@
-import { ApiAuthGraphQLAdminGuard } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLAdminGuard } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiFaqItemService,
   FaqItem,
   FaqItemAdminCreateInput,
   FaqItemAdminFindManyInput,
   FaqItemAdminUpdateInput,
-} from '@deanslist-platform/api-faq-item-data-access'
+} from '@islanddao-platform/api-faq-item-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql'
 

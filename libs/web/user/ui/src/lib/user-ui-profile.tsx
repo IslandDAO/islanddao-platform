@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/sdk'
+import { User } from '@islanddao-platform/sdk'
 import { Group, Paper, PaperProps, Text } from '@mantine/core'
 
 import { ReactNode } from 'react'

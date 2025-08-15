@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/sdk'
+import { User } from '@islanddao-platform/sdk'
 import { UiAvatar, UiAvatarProps } from '@pubkey-ui/core'
 
 export type UserUiAvatarProps = UiAvatarProps & {

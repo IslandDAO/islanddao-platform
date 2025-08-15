@@ -1,4 +1,4 @@
-import { AdminCreateUserInput, AdminFindManyUserInput, sdk, UserRole, UserStatus } from '@deanslist-platform/sdk'
+import { AdminCreateUserInput, AdminFindManyUserInput, sdk, UserRole, UserStatus } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'

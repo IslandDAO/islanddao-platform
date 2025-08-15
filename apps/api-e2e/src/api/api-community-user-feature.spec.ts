@@ -3,7 +3,7 @@ import {
   ManagerCreateCommunityInput,
   ManagerUpdateCommunityInput,
   UserFindManyCommunityInput,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { getAliceCookie, getBobCookie, sdk, uniqueId } from '../support'
 
 describe('api-community-feature', () => {

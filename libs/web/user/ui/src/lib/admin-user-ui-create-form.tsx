@@ -1,5 +1,5 @@
 import { Button, Group } from '@mantine/core'
-import { AdminCreateUserInput } from '@deanslist-platform/sdk'
+import { AdminCreateUserInput } from '@islanddao-platform/sdk'
 import { formFieldPassword, formFieldText, UiForm, UiFormField } from '@pubkey-ui/core'
 
 export function AdminUiCreateUserForm({ submit }: { submit: (res: AdminCreateUserInput) => Promise<boolean> }) {

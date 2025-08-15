@@ -1,4 +1,4 @@
-import { User, UserRole } from '@deanslist-platform/sdk'
+import { User, UserRole } from '@islanddao-platform/sdk'
 import { Button, Menu } from '@mantine/core'
 import { UiAvatar } from '@pubkey-ui/core'
 import { IconBug, IconChevronDown, IconLogout, IconSettings, IconShield, IconUser } from '@tabler/icons-react'

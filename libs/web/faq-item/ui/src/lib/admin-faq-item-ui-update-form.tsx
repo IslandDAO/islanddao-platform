@@ -1,5 +1,5 @@
-import { FaqItem, FaqItemAdminUpdateInput, FaqItemGroup, getEnumOptions } from '@deanslist-platform/sdk'
-import { CoreUiButton, CoreUiEditor, CoreUiInput, useCoreUiEditor } from '@deanslist-platform/web-core-ui'
+import { FaqItem, FaqItemAdminUpdateInput, FaqItemGroup, getEnumOptions } from '@islanddao-platform/sdk'
+import { CoreUiButton, CoreUiEditor, CoreUiInput, useCoreUiEditor } from '@islanddao-platform/web-core-ui'
 import { Group, Select } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { UiStack } from '@pubkey-ui/core'

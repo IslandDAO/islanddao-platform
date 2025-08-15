@@ -1,4 +1,4 @@
-import { DiscordServer, getRandomInt } from '@deanslist-platform/sdk'
+import { DiscordServer, getRandomInt } from '@islanddao-platform/sdk'
 import { Avatar } from '@mantine/core'
 import { getColorByIndex, UiAnchor, UiAvatarProps } from '@pubkey-ui/core'
 

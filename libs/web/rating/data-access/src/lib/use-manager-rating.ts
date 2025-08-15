@@ -1,4 +1,4 @@
-import { ManagerCreateRatingInput, ManagerUpdateRatingInput, sdk } from '@deanslist-platform/sdk'
+import { ManagerCreateRatingInput, ManagerUpdateRatingInput, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 
 export function useManagerRating() {

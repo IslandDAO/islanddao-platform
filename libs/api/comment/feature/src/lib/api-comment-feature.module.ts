@@ -1,4 +1,4 @@
-import { ApiCommentDataAccessModule } from '@deanslist-platform/api-comment-data-access'
+import { ApiCommentDataAccessModule } from '@islanddao-platform/api-comment-data-access'
 import { Module } from '@nestjs/common'
 import { ApiCommentAdminResolver } from './api-comment-admin.resolver'
 import { ApiCommentManagerResolver } from './api-comment-manager-resolver'

@@ -1,4 +1,4 @@
-import { CoreUiLogoType, pinkGradientText } from '@deanslist-platform/web-core-ui'
+import { CoreUiLogoType, pinkGradientText } from '@islanddao-platform/web-core-ui'
 import { Box, Group, Stack, Text } from '@mantine/core'
 import { UiStack } from '@pubkey-ui/core'
 import { ReactNode } from 'react'
@@ -19,7 +19,7 @@ export function AuthUiPage({ authEnabled, children }: { authEnabled: boolean; ch
                 Welcome to
               </Text>
               <Text fz={48} fw={500} c="white">
-                Dean’s List Dashboard!
+                IslandDAO Dashboard!
               </Text>
               <Text fz="lg" c="white">
                 The place where we inspire and reward{' '}

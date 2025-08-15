@@ -1,5 +1,5 @@
-import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput, Rating } from '@deanslist-platform/sdk'
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
+import { Comment, ManagerCreateRatingInput, ManagerUpdateRatingInput, Rating } from '@islanddao-platform/sdk'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
 import { UiStack } from '@pubkey-ui/core'
 import { ManagerRatingUiForm } from './manager-rating-ui-form'
 

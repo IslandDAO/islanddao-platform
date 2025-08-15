@@ -5,9 +5,9 @@ import {
   CoreUiPage,
   CoreUiPageLimit,
   CoreUiSearchField,
-} from '@deanslist-platform/web-core-ui'
-import { useAdminFindManyUser } from '@deanslist-platform/web-user-data-access'
-import { AdminUserUiTable } from '@deanslist-platform/web-user-ui'
+} from '@islanddao-platform/web-core-ui'
+import { useAdminFindManyUser } from '@islanddao-platform/web-user-data-access'
+import { AdminUserUiTable } from '@islanddao-platform/web-user-ui'
 import { Button, Group } from '@mantine/core'
 import { UiInfo, UiLoader } from '@pubkey-ui/core'
 import { Link } from 'react-router-dom'

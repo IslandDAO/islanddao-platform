@@ -1,4 +1,4 @@
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 
 export function getIdentityProviderColor(provider: IdentityProvider) {
   switch (provider) {

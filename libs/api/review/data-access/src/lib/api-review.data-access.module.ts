@@ -1,5 +1,5 @@
-import { ApiCoreDataAccessModule } from '@deanslist-platform/api-core-data-access'
-import { ApiProjectDataAccessModule } from '@deanslist-platform/api-project-data-access'
+import { ApiCoreDataAccessModule } from '@islanddao-platform/api-core-data-access'
+import { ApiProjectDataAccessModule } from '@islanddao-platform/api-project-data-access'
 import { Module } from '@nestjs/common'
 import { ApiReviewResolveAdminService } from './api-review-resolve-admin.service'
 import { ApiReviewResolveManagerService } from './api-review-resolve-manager.service'

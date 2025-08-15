@@ -1,4 +1,4 @@
-import { DiscordChannel } from '@deanslist-platform/sdk'
+import { DiscordChannel } from '@islanddao-platform/sdk'
 import { ComboboxItemGroup } from '@mantine/core'
 
 export function useGetDiscordChannelOptions({

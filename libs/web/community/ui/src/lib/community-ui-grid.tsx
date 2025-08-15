@@ -1,5 +1,5 @@
-import { Community } from '@deanslist-platform/sdk'
-import { CoreUiDebugModal, CoreUiPageLimit, gridLimits } from '@deanslist-platform/web-core-ui'
+import { Community } from '@islanddao-platform/sdk'
+import { CoreUiDebugModal, CoreUiPageLimit, gridLimits } from '@islanddao-platform/web-core-ui'
 import { Group, Pagination, SimpleGrid } from '@mantine/core'
 import { UiGroup, UiStack } from '@pubkey-ui/core'
 import { DataTableProps } from 'mantine-datatable'

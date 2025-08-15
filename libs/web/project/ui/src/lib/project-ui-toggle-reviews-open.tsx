@@ -1,4 +1,4 @@
-import { ManagerUpdateProjectInput, Project } from '@deanslist-platform/sdk'
+import { ManagerUpdateProjectInput, Project } from '@islanddao-platform/sdk'
 import { Switch } from '@mantine/core'
 import { toastInfo } from '@pubkey-ui/core'
 

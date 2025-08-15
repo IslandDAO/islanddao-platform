@@ -1,5 +1,5 @@
 import { Avatar, Tooltip } from '@mantine/core'
-import type { Identity } from '@deanslist-platform/sdk'
+import type { Identity } from '@islanddao-platform/sdk'
 import { IdentityUiAvatar } from './identity-ui-avatar'
 
 export function IdentityUiAvatarGroup({ identities, limit = 5 }: { identities: Identity[]; limit?: number }) {

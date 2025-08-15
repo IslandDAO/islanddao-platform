@@ -1,6 +1,6 @@
-import { AdminUpdateProjectInput } from '@deanslist-platform/sdk'
-import { useAdminFindOneProject } from '@deanslist-platform/web-project-data-access'
-import { AdminProjectUiUpdateForm } from '@deanslist-platform/web-project-ui'
+import { AdminUpdateProjectInput } from '@islanddao-platform/sdk'
+import { useAdminFindOneProject } from '@islanddao-platform/web-project-data-access'
+import { AdminProjectUiUpdateForm } from '@islanddao-platform/web-project-ui'
 import { UiCard, UiError, UiLoader } from '@pubkey-ui/core'
 import { useNavigate } from 'react-router-dom'
 

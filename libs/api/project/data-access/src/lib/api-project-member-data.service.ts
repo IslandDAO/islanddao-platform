@@ -1,5 +1,5 @@
-import { ApiCommunityService } from '@deanslist-platform/api-community-data-access'
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCommunityService } from '@islanddao-platform/api-community-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable, Logger } from '@nestjs/common'
 import { ApiProjectDataService } from './api-project-data.service'
 import { ProjectRole } from './entity/project-role.enum'

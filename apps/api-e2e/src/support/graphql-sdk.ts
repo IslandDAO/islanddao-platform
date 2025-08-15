@@ -7,7 +7,7 @@ import {
   ProjectStatus,
   ReviewerCreateCommentInput,
   Sdk,
-} from '@deanslist-platform/sdk'
+} from '@islanddao-platform/sdk'
 import { Keypair } from '@solana/web3.js'
 import * as nacl from 'tweetnacl'
 import { CookieJar } from './cookie-jar'

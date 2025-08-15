@@ -1,4 +1,4 @@
-import { DiscordChannel } from '@deanslist-platform/sdk'
+import { DiscordChannel } from '@islanddao-platform/sdk'
 import { Select, SelectProps } from '@mantine/core'
 
 export function DiscordUiCategorySelect({

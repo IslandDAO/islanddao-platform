@@ -1,5 +1,5 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
-import { ApiProjectService } from '@deanslist-platform/api-project-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
+import { ApiProjectService } from '@islanddao-platform/api-project-data-access'
 import { Injectable } from '@nestjs/common'
 import { ProjectStatus } from '@prisma/client'
 import { ManagerCreateRatingInput } from './dto/manager-create-rating.input'

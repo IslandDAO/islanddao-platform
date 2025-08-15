@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/api-user-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Prisma, ProjectRole } from '@prisma/client'
 import { ManagerFindManyProjectInput } from '../dto/manager-find-many-project.input'
 import { getProjectWhereManagerAccessInput } from './get-project-where-manager-access-input'

@@ -1,4 +1,4 @@
-import { useManagerGetProjectChannels } from '@deanslist-platform/web-discord-data-access'
+import { useManagerGetProjectChannels } from '@islanddao-platform/web-discord-data-access'
 import { SimpleGrid } from '@mantine/core'
 import { UiInfo, UiLoader, UiStack } from '@pubkey-ui/core'
 

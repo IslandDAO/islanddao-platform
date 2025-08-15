@@ -1,4 +1,4 @@
-import { AdminUpdateDiscordServerInput, sdk } from '@deanslist-platform/sdk'
+import { AdminUpdateDiscordServerInput, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 import { useMutation } from '@tanstack/react-query'
 

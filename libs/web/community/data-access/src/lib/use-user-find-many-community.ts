@@ -1,4 +1,4 @@
-import { sdk, UserFindManyCommunityInput } from '@deanslist-platform/sdk'
+import { sdk, UserFindManyCommunityInput } from '@islanddao-platform/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 

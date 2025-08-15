@@ -1,5 +1,5 @@
 {
-  "name": "@deanslist-platform/tools",
+  "name": "@islanddao-platform/tools",
   "version": "0.0.1",
   "dependencies": {
     "@nx/devkit": "19.2.2",

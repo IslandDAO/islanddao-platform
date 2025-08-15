@@ -1,5 +1,5 @@
-import { useAuth } from '@deanslist-platform/web-auth-data-access'
-import { CoreUiHeader, CoreUiLayout, CoreUiLogo, CoreUiLogoType } from '@deanslist-platform/web-core-ui'
+import { useAuth } from '@islanddao-platform/web-auth-data-access'
+import { CoreUiHeader, CoreUiLayout, CoreUiLogo, CoreUiLogoType } from '@islanddao-platform/web-core-ui'
 import { Button, Group } from '@mantine/core'
 import { UiAvatar, UiLoader } from '@pubkey-ui/core'
 import { IconLogout } from '@tabler/icons-react'

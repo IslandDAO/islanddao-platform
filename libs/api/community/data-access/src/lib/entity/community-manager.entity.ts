@@ -1,4 +1,4 @@
-import { User } from '@deanslist-platform/api-user-data-access'
+import { User } from '@islanddao-platform/api-user-data-access'
 import { Field, ObjectType } from '@nestjs/graphql'
 
 @ObjectType()

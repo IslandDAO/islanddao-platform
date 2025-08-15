@@ -1,4 +1,4 @@
-import { ApiCoreService } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { ProjectClosedEvent } from './event/project-closed-event'
 import { ProjectCreatedEvent } from './event/project-created.event'

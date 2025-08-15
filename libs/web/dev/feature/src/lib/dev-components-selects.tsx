@@ -1,4 +1,4 @@
-import { CoreUiSelect, CoreUiMultiSelect, CoreUiCheckbox } from '@deanslist-platform/web-core-ui'
+import { CoreUiCheckbox, CoreUiMultiSelect, CoreUiSelect } from '@islanddao-platform/web-core-ui'
 import { UiCard, UiStack } from '@pubkey-ui/core'
 import { useState } from 'react'
 
@@ -10,8 +10,8 @@ export function DevComponentsSelects() {
     <UiCard title="Selects">
       <UiStack align="flex-start">
         <CoreUiCheckbox miw={240} label="I agree to the terms." checked={checked} onCheck={setChecked} />
-        <CoreUiSelect miw={240} data={['SOL', 'USDC', 'Deans Token']} />
-        <CoreUiMultiSelect miw={240} data={['SOL', 'USDC', 'Deans Token']} value={value} onChange={setValue} />
+        <CoreUiSelect miw={240} data={['SOL', 'USDC', 'IslandDAO Token']} />
+        <CoreUiMultiSelect miw={240} data={['SOL', 'USDC', 'IslandDAO Token']} value={value} onChange={setValue} />
       </UiStack>
     </UiCard>
   )

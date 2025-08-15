@@ -1,4 +1,4 @@
-import { AdminUpdateCommentInput, sdk } from '@deanslist-platform/sdk'
+import { AdminUpdateCommentInput, sdk } from '@islanddao-platform/sdk'
 import { toastError, toastSuccess } from '@pubkey-ui/core'
 
 export function useAdminUpdateComment({ commentId }: { commentId: string }) {

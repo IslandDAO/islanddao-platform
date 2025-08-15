@@ -1,4 +1,4 @@
-import type { Comment } from '@deanslist-platform/sdk'
+import type { Comment } from '@islanddao-platform/sdk'
 import { Button, Popover } from '@mantine/core'
 import { IconInfoCircle } from '@tabler/icons-react'
 import React from 'react'

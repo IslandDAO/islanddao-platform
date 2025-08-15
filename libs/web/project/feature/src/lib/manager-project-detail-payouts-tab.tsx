@@ -1,6 +1,6 @@
-import { ProjectStatus } from '@deanslist-platform/sdk'
-import { useManagerFindOneProject, useManagerUpdateProjectMember } from '@deanslist-platform/web-project-data-access'
-import { ManagerProjectUiPayoutsForm } from '@deanslist-platform/web-project-ui'
+import { ProjectStatus } from '@islanddao-platform/sdk'
+import { useManagerFindOneProject, useManagerUpdateProjectMember } from '@islanddao-platform/web-project-data-access'
+import { ManagerProjectUiPayoutsForm } from '@islanddao-platform/web-project-ui'
 import { UiError, UiInfo, UiLoader, UiStack, UiWarning } from '@pubkey-ui/core'
 
 export function ManagerProjectDetailPayoutsTab({ projectId }: { projectId: string }) {

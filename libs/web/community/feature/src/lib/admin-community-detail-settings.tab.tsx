@@ -1,5 +1,5 @@
-import { useAdminFindOneCommunity } from '@deanslist-platform/web-community-data-access'
-import { AdminCommunityUiUpdateForm } from '@deanslist-platform/web-community-ui'
+import { useAdminFindOneCommunity } from '@islanddao-platform/web-community-data-access'
+import { AdminCommunityUiUpdateForm } from '@islanddao-platform/web-community-ui'
 import { UiCard, UiError, UiLoader, UiTabRoutes } from '@pubkey-ui/core'
 import { AdminCommunityDetailChannelsTab } from './admin-community-detail-channels-tab'
 import { AdminCommunityDetailManagersTab } from './admin-community-detail-managers-tab'

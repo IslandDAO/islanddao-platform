@@ -1,4 +1,4 @@
-import { IdentityProvider } from '@deanslist-platform/sdk'
+import { IdentityProvider } from '@islanddao-platform/sdk'
 import * as bs58 from 'bs58'
 import { alice, getAliceCookie, getIdentityChallenge, sdk, signMessage } from '../support'
 import { breakStringSolana } from '../support/break-string'

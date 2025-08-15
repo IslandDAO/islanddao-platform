@@ -1,7 +1,7 @@
-import { FaqItemAdminCreateInput } from '@deanslist-platform/sdk'
-import { CoreUiBack, CoreUiPage } from '@deanslist-platform/web-core-ui'
-import { useAdminFindManyFaqItem } from '@deanslist-platform/web-faq-item-data-access'
-import { AdminFaqItemUiCreateForm } from '@deanslist-platform/web-faq-item-ui'
+import { FaqItemAdminCreateInput } from '@islanddao-platform/sdk'
+import { CoreUiBack, CoreUiPage } from '@islanddao-platform/web-core-ui'
+import { useAdminFindManyFaqItem } from '@islanddao-platform/web-faq-item-data-access'
+import { AdminFaqItemUiCreateForm } from '@islanddao-platform/web-faq-item-ui'
 import { toastError, UiCard } from '@pubkey-ui/core'
 import { useNavigate } from 'react-router-dom'
 

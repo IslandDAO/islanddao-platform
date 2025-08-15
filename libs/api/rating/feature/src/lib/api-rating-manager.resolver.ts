@@ -1,10 +1,10 @@
-import { ApiAuthGraphQLUserGuard, CtxUserId } from '@deanslist-platform/api-auth-data-access'
+import { ApiAuthGraphQLUserGuard, CtxUserId } from '@islanddao-platform/api-auth-data-access'
 import {
   ApiRatingService,
   ManagerCreateRatingInput,
   ManagerUpdateRatingInput,
   Rating,
-} from '@deanslist-platform/api-rating-data-access'
+} from '@islanddao-platform/api-rating-data-access'
 import { UseGuards } from '@nestjs/common'
 import { Args, Mutation, Resolver } from '@nestjs/graphql'
 

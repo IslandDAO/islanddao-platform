@@ -1,7 +1,7 @@
-import { ManagerCreateCommunityInput } from '@deanslist-platform/sdk'
-import { useManagerFindManyCommunity } from '@deanslist-platform/web-community-data-access'
-import { ManagerCommunityUiCreateForm } from '@deanslist-platform/web-community-ui'
-import { CoreUiBack, CoreUiCard } from '@deanslist-platform/web-core-ui'
+import { ManagerCreateCommunityInput } from '@islanddao-platform/sdk'
+import { useManagerFindManyCommunity } from '@islanddao-platform/web-community-data-access'
+import { ManagerCommunityUiCreateForm } from '@islanddao-platform/web-community-ui'
+import { CoreUiBack, CoreUiCard } from '@islanddao-platform/web-core-ui'
 import { toastError, UiPage } from '@pubkey-ui/core'
 import { useNavigate } from 'react-router-dom'
 

@@ -1,4 +1,4 @@
-import { ApiCoreService, slugifyId } from '@deanslist-platform/api-core-data-access'
+import { ApiCoreService, slugifyId } from '@islanddao-platform/api-core-data-access'
 import { Injectable } from '@nestjs/common'
 import { Prisma } from '@prisma/client'
 import { ApiCommunityEventService } from './api-community-event.service'
